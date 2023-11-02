@@ -16,24 +16,33 @@ psql terminal on windows
 -- Creating new db
 CREATE DATABASE example1 - creates new db to specific user with name example1
 
--- Creating new table
-Just an example
 
-CREATE TABLE products(
-id INT,
-name VARCHAR(50),
-price INT,
-on_sale boolean
+-- ============ Managing tables ============
+
+-- Adding column
+ALTER TABLE products ADD COLUMN featured boolean;
+
+-- Removing column
+ALTER TABLE products DROP COLUMN featured;
+
+-- Removing entire table
+DROP TABLE products;
+
+-- create new table
+-- id is gonna be incremented always by 1 and it always has to be set
+CREATE TABLE restaurants(
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(25) NOT NULL,
+    location VARCHAR(25) NOT NULL,
+    price_range INT NOT NULL check(price_range >=1 and price_range <=5)
 );
 
 
--- Managing tables
-Adding column
+-- Manual insertion
+INSERT INTO restaurants (id, name, location, price_range) values (123, 'mcdonalds', 'leszno', 3);
 
-ALTER TABLE products ADD COLUMN featured boolean;
+-- adding new constraints to specific table column
+ALTER TABLE restaurants ADD CONSTRAINT price_range CHECK(price_range >=1 and price_range <=5);
 
-Removing column
-ALTER TABLE products DROP COLUMN featured;
-
-Removing entire table
-DROP TABLE products;
+-- renaming constraint of exisiting column
+ALTER TABLE restaurants RENAME CONSTRAINT id TO pk_restaurants;
