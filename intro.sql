@@ -31,7 +31,7 @@ DROP TABLE products;
 -- create new table
 -- id is gonna be incremented always by 1 and it always has to be set
 CREATE TABLE restaurants(
-    id BIGSERIAL NOT NULL,
+    id BIGSERIAL NOT NULL PRIMARY KEY,
     name VARCHAR(25) NOT NULL,
     location VARCHAR(25) NOT NULL,
     price_range INT NOT NULL check(price_range >=1 and price_range <=5)

@@ -1,7 +1,10 @@
 const databaseApi = {
   getRestaurants: async (req, res) => {
     try {
-    } catch (error) {}
+      console.log("test");
+    } catch (error) {
+      console.log(error);
+    }
   },
 };
 
