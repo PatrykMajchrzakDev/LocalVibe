@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <main>
+      {/* <main>
         <img src="" alt="" />
         <h1>Discover the most interesting local places!</h1>
-      </main>
+      </main> */}
     </>
   );
 };
