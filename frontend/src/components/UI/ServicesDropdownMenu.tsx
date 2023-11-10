@@ -2,15 +2,14 @@ import DropdownMenuItem from "./DropdownMenuItem";
 const ServicesDropdownMenu = () => {
   return (
     <>
-      <nav className="w-1/2 flex justify-center mx-auto">
-        <ul className="w-full flex flex-row ml-7">
-          <li className="pr-6">
-            <a href="#">
+      <nav className="w-1/2 flex justify-center mx-auto ">
+        <ul className="w-full flex flex-row ml-7 h-10 items-center min-w-[470px]">
+          <li className="relative group mr-6 h-10 flex items-center">
+            <a href="#" className="">
               Restaurants <i className="fa-solid fa-caret-down"></i>
             </a>
-            {/* START HERE */}
-            <div className="">
-              <ul>
+            <div className="hidden w-[304px] rounded-r-lg rounded-bl-lg group-hover:flex flex-wrap absolute left-0 top-[107%] bg-white">
+              <ul className="flex flex-wrap m-3">
                 <DropdownMenuItem name={"Delivery"} url={"delivery"} />
                 <DropdownMenuItem name={"Reservations"} url={"reservations"} />
                 <DropdownMenuItem name={"Burgers"} url={"burgers"} />
@@ -22,12 +21,12 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="pr-6">
+          <li className="relative group mr-6 h-10 flex items-center">
             <a href="#">
               Home Services <i className="fa-solid fa-caret-down"></i>
             </a>
-            <div>
-              <ul>
+            <div className="hidden w-[304px] rounded-r-lg rounded-bl-lg group-hover:flex flex-wrap absolute left-0 top-[107%] bg-white">
+              <ul className="flex flex-wrap m-3">
                 <DropdownMenuItem name={"Contractors"} url={"contractor"} />
                 <DropdownMenuItem name={"Landscaping"} url={"landscaping"} />
                 <DropdownMenuItem name={"Electricians"} url={"electrician"} />
@@ -39,12 +38,13 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="pr-6">
+
+          <li className="relative group mr-6 h-10 flex items-center">
             <a href="#">
               Auto Services <i className="fa-solid fa-caret-down"></i>
             </a>
-            <div>
-              <ul>
+            <div className="hidden w-[304px] rounded-r-lg rounded-bl-lg group-hover:flex flex-wrap absolute left-0 top-[107%] bg-white">
+              <ul className="flex flex-wrap m-3">
                 <DropdownMenuItem name={"Auto Repair"} url={"auto+repair"} />
                 <DropdownMenuItem name={"Car Dealers"} url={"car+dealer"} />
                 <DropdownMenuItem
@@ -59,12 +59,12 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="">
+          <li className="relative group mr-6 h-10 flex items-center">
             <a href="#">
               More <i className="fa-solid fa-caret-down"></i>
             </a>
-            <div>
-              <ul>
+            <div className="hidden w-[304px] rounded-r-lg rounded-bl-lg group-hover:flex flex-wrap absolute left-0 top-[107%] bg-white">
+              <ul className="flex flex-wrap m-3">
                 <DropdownMenuItem name={"Dry Cleaners"} url={"dry+cleaner"} />
                 <DropdownMenuItem name={"Hair Salons"} url={"hair+salon"} />
                 <DropdownMenuItem name={"Phone Repair"} url={"phone+repair"} />
