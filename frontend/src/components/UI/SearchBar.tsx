@@ -30,7 +30,7 @@ const SearchBar = () => {
         </label>
       </div>
       {/* 3rd section - search button */}
-      <div className="w-12 h-12 bg-red-500 flex items-center justify-center text-lg">
+      <div className="px-3 bg-red-500 flex items-center justify-center text-lg">
         <button type="submit" className="w-8 h-8">
           <i className="fa-solid fa-magnifying-glass text-white"></i>
         </button>
