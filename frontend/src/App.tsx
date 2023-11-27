@@ -8,12 +8,15 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./util/api/httpRequests";
 
 // ============= Import Components =============
-import Home from "./components/Home";
+import RootLayout from "./pages/Root";
+import HomePage from "./components/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <RootLayout />,
+    id: "root",
+    children: [{ index: true, element: <HomePage /> }],
   },
 ]);
 
