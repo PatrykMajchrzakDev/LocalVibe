@@ -1,5 +1,11 @@
+import { useState } from "react";
 import { Form } from "react-router-dom";
 const SearchBar = () => {
+  // const [locationValue, setLocationValue] = useState("");
+  // const time
+
+  // const regex = /\/([^\/]*)$/;
+  // const match = inputString.match(regex);
   return (
     //FORM to easily get data from inputs. 3 main sections in form. 2 inputs and button
     <Form
@@ -26,11 +32,12 @@ const SearchBar = () => {
             name="searchbar-location"
             className="h-7 px-2 focus:outline-none w-full"
             placeholder="Location"
+            // value={Intl.DateTimeFormat().resolvedOptions().timeZone}
           />
         </label>
       </div>
       {/* 3rd section - search button */}
-      <div className="px-3 bg-red-500 flex items-center justify-center text-lg">
+      <div className="px-3 bg-red-500 flex items-center justify-center text-lg border-solid border-white border-2">
         <button type="submit" className="w-8 h-8">
           <i className="fa-solid fa-magnifying-glass text-white"></i>
         </button>

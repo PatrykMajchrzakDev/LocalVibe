@@ -1,8 +1,8 @@
-import SearchBar from "../UI/SearchBar";
-import ServicesDropdownMenu from "../UI/ServicesDropdownMenu";
-import Button from "../UI/Button";
+import SearchBar from "./UI/SearchBar";
+import ServicesDropdownMenu from "./UI/ServicesDropdownMenu";
+import Button from "./UI/Button";
 
-const Navbar = () => {
+const MainNavigation = () => {
   return (
     <header className="absolute top-0 left-0 w-full flex flex-col px-8 py-5">
       <div className="flex flex-row justify-center w-full ">
@@ -32,4 +32,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MainNavigation;

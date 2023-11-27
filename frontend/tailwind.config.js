@@ -5,7 +5,14 @@ export default {
     fontFamily: {
       default: ["roboto", "ui-sans-serif", "system-ui"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        defaultGray: "#f7f7f7",
+      },
+      backgroundImage: {
+        "hero-img": "url('./src/assets/imgs/hero-img.png')",
+      },
+    },
   },
   plugins: [],
 };
