@@ -2,9 +2,9 @@ import DropdownMenuItem from "./DropdownMenuItem";
 const ServicesDropdownMenu = () => {
   return (
     <>
-      <nav className="w-1/2 flex justify-center">
-        <ul className="w-full flex py-4 items-center min-w-[470px]">
-          <li className="relative group mr-6 h-10 flex items-center">
+      <nav className="hidden md:w-1/2 md:flex md:justify-center">
+        <ul className="w-full flex py-4 items-center lg:justify-around text-center">
+          <li className="relative group h-10 flex items-center px-3">
             <a href="#" className="">
               Restaurants <i className="fa-solid fa-caret-down"></i>
             </a>
@@ -21,7 +21,7 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="relative group mr-6 h-10 flex items-center">
+          <li className="relative group h-10 flex items-center px-3">
             <a href="#">
               Home Services <i className="fa-solid fa-caret-down"></i>
             </a>
@@ -39,9 +39,9 @@ const ServicesDropdownMenu = () => {
             </div>
           </li>
 
-          <li className="relative group mr-6 h-10 flex items-center">
+          <li className="relative group h-10 flex items-center px-3">
             <a href="#">
-              Auto Services <i className="fa-solid fa-caret-down"></i>
+              Car Services <i className="fa-solid fa-caret-down"></i>
             </a>
             <div className="hidden w-[304px] rounded-r-lg rounded-bl-lg group-hover:flex flex-wrap absolute left-0 top-[102%] bg-white">
               <ul className="flex flex-wrap m-3">
@@ -59,7 +59,7 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="relative group mr-6 h-10 flex items-center">
+          <li className="relative group h-10 flex items-center px-3">
             <a href="#">
               More <i className="fa-solid fa-caret-down"></i>
             </a>

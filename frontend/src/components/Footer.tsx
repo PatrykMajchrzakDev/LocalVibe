@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="h-[25vh] flex flex-col bg-defaultGray">
+    <footer className="pb-5 md:h-[25vh] flex flex-col bg-defaultGray">
       <div className="flex justify-center items-center p-5">
         <a href="/" className="">
           <img
@@ -10,25 +10,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <section className="flex flex-row w-full">
-        <div className="flex flex-col gap-4 w-1/2 justify-center items-center">
-          <p className="text-lg font-medium">Navigation</p>
-          <ul className="flex gap-2 flex-col">
-            <li className="hover:underline">
-              <a href="/">Home</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Restaurants</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Home Services</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Auto Services</a>
-            </li>
-          </ul>
-        </div>
-        <div className="flex flex-col gap-4 w-1/2 justify-center items-center">
+      <section className="flex flex-col md:flex md:flex-row w-full xl:container xl:mx-auto">
+        <div className="pb-10 flex flex-col gap-4 justify-center items-center w-full md:w-1/2">
           <p className="text-lg font-medium">Contact informations</p>
           <div className="flex flex-row">
             <div className="w-1/3">
@@ -59,6 +42,23 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="flex flex-col gap-4  justify-center items-center w-full md:w-1/2">
+          <p className="text-lg font-medium">Navigation</p>
+          <ul className="flex gap-2 flex-col">
+            <li className="hover:underline">
+              <a href="/">Home</a>
+            </li>
+            <li className="hover:underline">
+              <a href="#">Restaurants</a>
+            </li>
+            <li className="hover:underline">
+              <a href="#">Home Services</a>
+            </li>
+            <li className="hover:underline">
+              <a href="#">Auto Services</a>
+            </li>
+          </ul>
         </div>
       </section>
     </footer>
