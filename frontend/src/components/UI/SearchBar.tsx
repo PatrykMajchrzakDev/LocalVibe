@@ -1,11 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Form } from "react-router-dom";
 const SearchBar = () => {
-  // const [locationValue, setLocationValue] = useState("");
-  // const time
+  const [city, setCity] = useState("");
+  const [country, setCountry] = useState("");
 
-  // const regex = /\/([^\/]*)$/;
-  // const match = inputString.match(regex);
+  useEffect(() => {
+    const fetchLocation = async () => {
+      try {
+        const response = await fetch("https://ipapi.co/json");
+        const location = await response.json();
+        setCity(location.city);
+        setCountry(location.country_name);
+      } catch (error) {
+        console.error(
+          "Error fetching user location to update local restaurants",
+          error
+        );
+      }
+    };
+    fetchLocation();
+  }, []);
+
   return (
     //FORM to easily get data from inputs. 3 main sections in form. 2 inputs and button
     <Form
@@ -32,7 +47,7 @@ const SearchBar = () => {
             name="searchbar-location"
             className="h-7 px-2 focus:outline-none w-full"
             placeholder="Location"
-            // value={Intl.DateTimeFormat().resolvedOptions().timeZone}
+            value={`${city}, ${country}`}
           />
         </label>
       </div>
