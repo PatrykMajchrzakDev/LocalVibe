@@ -3,8 +3,8 @@ const ServicesDropdownMenu = () => {
   return (
     <>
       <nav className="hidden md:w-1/2 md:flex md:justify-center">
-        <ul className="w-full flex py-4 items-center lg:justify-around text-center">
-          <li className="relative group h-10 flex items-center px-3">
+        <ul className="w-full flex py-4 items-center text-center">
+          <li className="relative group h-10 flex items-center px-3 lg:px-10">
             <a href="#" className="">
               Restaurants <i className="fa-solid fa-caret-down"></i>
             </a>
@@ -21,7 +21,7 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="relative group h-10 flex items-center px-3">
+          <li className="relative group h-10 flex items-center px-3 lg:px-10">
             <a href="#">
               Home Services <i className="fa-solid fa-caret-down"></i>
             </a>
@@ -39,7 +39,7 @@ const ServicesDropdownMenu = () => {
             </div>
           </li>
 
-          <li className="relative group h-10 flex items-center px-3">
+          <li className="relative group h-10 flex items-center px-3 lg:px-10">
             <a href="#">
               Car Services <i className="fa-solid fa-caret-down"></i>
             </a>
@@ -59,7 +59,7 @@ const ServicesDropdownMenu = () => {
               </ul>
             </div>
           </li>
-          <li className="relative group h-10 flex items-center px-3">
+          <li className="relative group h-10 flex items-center px-3 lg:px-10">
             <a href="#">
               More <i className="fa-solid fa-caret-down"></i>
             </a>
