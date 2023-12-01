@@ -1,5 +1,17 @@
+import { useState, useEffect } from "react";
 import { Form } from "react-router-dom";
-const SearchBar: React.FC<{ userLocation: object }> = ({ userLocation }) => {
+import UserLocation from "../../types/UserLocation";
+const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
+  userLocation,
+}) => {
+  const [userLocationInput, setUserLocationInput] = useState(
+    userLocation ? `${userLocation.city}, ${userLocation.country_name}` : ""
+  );
+  useEffect(() => {
+    setUserLocationInput(() =>
+      userLocation ? `${userLocation.city}, ${userLocation.country_name}` : ""
+    );
+  }, [userLocation]);
   return (
     //FORM to easily get data from inputs. 3 main sections in form. 2 inputs and button
     <Form
@@ -26,8 +38,8 @@ const SearchBar: React.FC<{ userLocation: object }> = ({ userLocation }) => {
             name="searchbar-location"
             className="h-7 px-2 focus:outline-none w-full"
             placeholder="Location"
-            value={userLocation}
-            onChange={(e) => setUserLocation(e.target.value)}
+            value={userLocationInput}
+            onChange={(e) => setUserLocationInput(e.target.value)}
           />
         </label>
       </div>
