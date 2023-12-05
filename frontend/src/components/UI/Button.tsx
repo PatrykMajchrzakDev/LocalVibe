@@ -12,7 +12,7 @@ const Button: React.FC<{
   // if(size === 'small'){
   // }
   return (
-    <Link to="./login">
+    <Link to={url || ""}>
       <button
         className={`flex w-full h-full items-center justify-center ${classes}`}
       >
