@@ -1,24 +1,49 @@
 import { useState, useEffect } from "react";
-import { Form } from "react-router-dom";
+import { Form, useNavigate } from "react-router-dom";
 import UserLocation from "../../types/UserLocation";
+
+interface QueryParams {
+  find_desc?: string;
+  find_loc?: string;
+}
 const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
   userLocation,
 }) => {
+  const navigate = useNavigate();
+
   const [userLocationInput, setUserLocationInput] = useState(
     userLocation ? `${userLocation.city}, ${userLocation.country_name}` : ""
   );
+
+  const [searchInput, setSearchInput] = useState("");
+
   useEffect(() => {
     setUserLocationInput(() =>
       userLocation ? `${userLocation.city}, ${userLocation.country_name}` : ""
     );
   }, [userLocation]);
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    const queryParams: QueryParams = {};
+
+    if (searchInput.trim() !== "") {
+      queryParams.find_desc = searchInput.trim();
+    }
+
+    if (userLocationInput.trim() !== "") {
+      queryParams.find_loc = userLocationInput.trim();
+    }
+
+    navigate(
+      `places/search?${encodeURIComponent(
+        searchInput
+      )}&find_loc=${encodeURIComponent(userLocationInput)}`
+    );
+  };
   return (
     //FORM to easily get data from inputs. 3 main sections in form. 2 inputs and button
-    <Form
-      action="GET ITEMS FROM DB VIA ITS ITEMS"
-      method="GET"
-      className="w-full flex"
-    >
+    <Form className="w-full flex" onSubmit={handleFormSubmit}>
       {/* 1st section - input */}
       <div className="h-12 rounded-l-sm bg-white flex items-center flex-grow text-lg">
         <label htmlFor="searchbar-description" className="w-full">
@@ -27,6 +52,7 @@ const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
             name="searchbar-description"
             className="h-7 px-2 text-black focus:outline-none border-r-2 border-r-gray-300 w-full"
             placeholder="Restaurants, parks, shops"
+            onChange={(e) => setSearchInput(e.target.value)}
           />{" "}
         </label>
       </div>
