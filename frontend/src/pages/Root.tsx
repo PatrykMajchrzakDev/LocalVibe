@@ -1,10 +1,13 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useOutletContext } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { fetchUserLocation } from "../util/api/httpRequests";
 import UserLocation from "../types/UserLocation";
+
+type ContextType = { userLocationInfo: UserLocation | null };
+
 const Root = () => {
   const [userLocationInfo, setUserLocationInfo] = useState<UserLocation | null>(
     null
@@ -20,10 +23,14 @@ const Root = () => {
   return (
     <>
       <MainNavigation userLocationInfo={userLocationInfo} />
-      <Outlet />
+      <Outlet context={{ userLocationInfo }} />
       <Footer />
     </>
   );
 };
 
 export default Root;
+
+export function useUserLocationInfo() {
+  return useOutletContext<ContextType>();
+}
