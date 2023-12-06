@@ -2,13 +2,13 @@ import { QueryClient } from "@tanstack/react-query";
 export const queryClient = new QueryClient();
 
 // FETCH CURRENT WEATHER
-export async function fetchWeatherInformation(
+export async function fetchWeatherDetails(
   latitude: number,
-  longtitude: number
+  longitude: number
 ) {
   try {
     const response = await fetch(
-      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longtitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,cloud_cover,wind_speed_10m&daily=&timezone=auto&forecast_days=1`
+      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,cloud_cover,wind_speed_10m&daily=&timezone=auto&forecast_days=1`
     );
     const weather = await response.json();
     return weather;
