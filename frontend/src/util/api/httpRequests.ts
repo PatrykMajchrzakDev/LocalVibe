@@ -5,7 +5,7 @@ export const queryClient = new QueryClient();
 export async function fetchWeatherDetails(latitude: number, longitude: number) {
   try {
     const response = await fetch(
-      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,weather_code,cloud_cover,wind_speed_10m&daily=&timezone=auto&forecast_days=1`
+      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,weather_code,wind_speed_10m,surface_pressure&daily=&timezone=auto&forecast_days=1`
     );
     const weather = await response.json();
     return weather;
