@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchWeatherDetails } from "../../util/api/httpRequests";
 import UserLocation from "../../types/UserLocation";
+import WeatherDetailsPanel from "./WeatherDetailsPanel";
 
 type WeatherImageMap = {
   [key: string]: {
@@ -24,19 +25,13 @@ interface WeatherDetails {
 // This map contains the paths to images
 const weatherImageMap: WeatherImageMap = {
   "0": { day: "clear_sky_day.png", night: "clear_sky_night.png" },
-  "1": { day: "partly_cloudy_day.png", night: "partly_cloudy_night.png" },
-  "2": { day: "fog_day.png", night: "fog_night.png" },
-  "63": { day: "light_rain_day.png", night: "light_rain_night.png" },
-  "73": { day: "light_snow_day.png", night: "light_snow_night.png" },
-  "96": {
-    day: "slight_thunderstorm_day.png",
-    night: "slight_thunderstorm_night.png",
+  "1": { day: "cloudy_day.png", night: "cloudy_night.png" },
+  "2": { day: "rainy.png", night: "rainy.png" },
+  "4": { day: "snow_day.png", night: "snow_night.png" },
+  "5": {
+    day: "thunderstorm.png",
+    night: "thunderstorm.png",
   },
-  "95": {
-    day: "thunderstorm_with_light_hail_day.png",
-    night: "thunderstorm_with_light_hail_night.png",
-  },
-  default: { day: "default_day.png", night: "default_night.png" },
 };
 
 const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
@@ -45,6 +40,7 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   const [weatherDetails, setWeatherDetails] = useState<WeatherDetails>({});
   const [weatherImagePath, setWeatherImagePath] = useState("");
   const [errorFetchingWeather, setErrorFetchingWeather] = useState(false);
+  const fullImagePath = `/src/assets/imgs/${weatherImagePath}`;
 
   //Checks if there is prop userLocation and fetches weather details based off users latitude and longitude
   useEffect(() => {
@@ -61,43 +57,49 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
           );
           setWeatherDetails(fetchedWeatherDetails);
         } catch (error) {
+          setErrorFetchingWeather(true);
           console.error("Could not fetch weather details", error);
         }
-      } else {
-        setErrorFetchingWeather(true);
-        return <div>Could not get weather details :(</div>;
       }
     }
     fetchAndSetWeatherDetails();
   }, [userLocation]);
-  console.log(weatherDetails);
 
   //switch to return char for map based on gotten weather code from weather api
   const getWeatherCategory = (code: string) => {
     switch (code) {
+      case "0":
+        return "0";
+      case "1":
+      case "2":
+      case "3":
+        return "1";
       case "45":
       case "48":
-        return "2";
+        return "1";
       case "51":
       case "53":
       case "55":
       case "56":
       case "57":
       case "61":
+      case "63":
       case "65":
       case "80":
       case "81":
       case "82":
-        return "63";
+        return "2";
       case "71":
+      case "73":
       case "75":
       case "77":
       case "85":
       case "86":
-        return "73";
+        return "4";
+      case "95":
       case "96":
       case "99":
-        return "95";
+        return "5";
       default:
         return "1";
     }
@@ -121,19 +123,16 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   return (
     <>
       {/* Weather details */}
-      <div className="flex justify-center items-center flex-col md:flex-row py-10 xl:max-w-7xl">
+      <div className="flex justify-center items-center flex-col md:flex-row py-10 xl:max-w-7xl border-b-[1px] border-bordersColor">
+        {errorFetchingWeather != false && (
+          <div>Sorry, we could not get weather data :(</div>
+        )}
         {/* Left section */}
-        <div className="w-1/2 flex flex-col h-full">
+        <div className="w-1/3 flex flex-col h-full">
           <div className="flex items-center justify-center ">
-            <img
-              src="/src/assets/imgs/sun-clouds-small.png"
-              alt=""
-              height={100}
-              width={100}
-            />
-            {/* I HAVE TO FETCH IT BEFORE IT RENDERS CAUSE IM GETTING ERROR OTHERWISE */}
+            <img src={fullImagePath} alt="" height={100} width={100} />
             {weatherDetails && weatherDetails.current && (
-              <p className="text-3xl">
+              <p className="text-3xl p-4">
                 {weatherDetails.current.temperature_2m}°
               </p>
             )}
@@ -146,46 +145,33 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
             )}
           </div>
         </div>
-
-        {/* right section with weather details */}
+        {/* Right section */}
         {weatherDetails.current && (
-          <div className="w-full flex flex-col md:w-1/2 md:flex-row md:flex-wrap p-2">
-            <div className="w-full flex md:w-1/2 mx-auto p-4 justify-center">
-              <i className="fa-solid fa-droplet text-2xl w-5"></i>
-              <div className="flex flex-col justify-center items-center">
-                <p className="text-xl pl-4 mx-auto md:mx-0">Humidity</p>
-                <p className="">
-                  {weatherDetails.current.relative_humidity_2m}%
-                </p>
-              </div>
-            </div>
-            <div className="w-full flex md:w-1/2 mx-auto p-4 justify-center">
-              <i className="fa-solid fa-temperature-high text-2xl w-10"></i>
-              <div className="flex flex-col justify-center items-center">
-                <p className="text-xl pl-4 mx-auto md:mx-0">Feels like</p>
-                <p className="">
-                  {weatherDetails.current.relative_humidity_2m}%
-                </p>
-              </div>
-            </div>
-            <div className="w-full flex md:w-1/2 mx-auto p-4 justify-center">
-              <i className="fas fa-tachometer-alt text-2xl w-10"></i>
-              <div className="flex flex-col justify-center items-center">
-                <p className="text-xl pl-4 mx-auto md:mx-0">Air pressure</p>
-                <p className="">
-                  {weatherDetails.current.relative_humidity_2m}%
-                </p>
-              </div>
-            </div>
-            <div className="w-full flex md:w-1/2 mx-auto p-4 justify-center">
-              <i className="fa-solid fa-wind text-2xl w-10"></i>
-              <div className="flex flex-col justify-center items-center">
-                <p className="text-xl pl-4 mx-auto md:mx-0">Wind speed</p>
-                <p className="">
-                  {weatherDetails.current.relative_humidity_2m}%
-                </p>
-              </div>
-            </div>
+          <div className="w-full flex flex-col md:flex-row md:flex-wrap p-8">
+            <WeatherDetailsPanel
+              desc={"Humidity"}
+              value={weatherDetails.current.relative_humidity_2m}
+              symbol={" %"}
+              icon={"fa-solid fa-droplet"}
+            />
+            <WeatherDetailsPanel
+              desc={"Feels like"}
+              value={weatherDetails.current.apparent_temperature}
+              symbol={" °"}
+              icon={"fa-solid fa-temperature-high"}
+            />
+            <WeatherDetailsPanel
+              desc={"Air pressure"}
+              value={Math.round(weatherDetails.current.surface_pressure)}
+              symbol={" hPa"}
+              icon={"fas fa-tachometer-alt"}
+            />
+            <WeatherDetailsPanel
+              desc={"Wind speed"}
+              value={weatherDetails.current.wind_speed_10m}
+              symbol={" km/h"}
+              icon={"fa-solid fa-wind"}
+            />
           </div>
         )}
       </div>
@@ -194,31 +180,3 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
 };
 
 export default Weather;
-
-// Based on this image I want you to create 14 different images as separate files based on this
-
-// "0": { day: "clear_sky_day.png", night: "clear_sky_night.png" },
-//   "1": { day: "partly_cloudy_day.png", night: "partly_cloudy_night.png" },
-//   // Combine 45 and 48 into category 2
-//   "2": { day: "fog_day.png", night: "fog_night.png" },
-//   // Combine 51, 53, 55, 56, 57, 61, 65, 80, 81, 82 into category 63
-//   "63": { day: "light_rain_day.png", night: "light_rain_night.png" },
-//   // Combine 71, 75, 77, 85, 86 into category 73
-//   "73": { day: "light_snow_day.png", night: "light_snow_night.png" },
-//   "96": {
-//     day: "slight_thunderstorm_day.png",
-//     night: "slight_thunderstorm_night.png",
-//   },
-//   // Combine 96 and 99 into category 95
-//   "95": {
-//     day: "thunderstorm_with_light_hail_day.png",
-//     night: "thunderstorm_with_light_hail_night.png",
-//   },
-
-//sun
-//moon
-//day clouds
-//night clouds
-//rain
-//snow
-//thunderstorm
