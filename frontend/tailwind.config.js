@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         defaultGray: "#f7f7f7",
+        bordersColor: "#ebebeb",
       },
       backgroundImage: {
         "hero-img": "url('./src/assets/imgs/hero-img.png')",
