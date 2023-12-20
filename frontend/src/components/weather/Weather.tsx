@@ -122,8 +122,11 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   }, [weatherDetails]);
   return (
     <>
+      <h4 className="px-3 py-10 text-3xl text-center font-medium">
+        Check weather at your place to find best opportunity!
+      </h4>
       {/* Weather details */}
-      <div className="flex justify-center items-center flex-col md:flex-row py-10 xl:max-w-7xl border-b-[1px] border-bordersColor">
+      <div className="flex justify-center items-center flex-col md:flex-row pb-10 xl:max-w-7xl border-b-[1px] border-bordersColor">
         {errorFetchingWeather != false && (
           <div>Sorry, we could not get weather data :(</div>
         )}

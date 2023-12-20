@@ -11,7 +11,7 @@ const WeatherDetailsPanel: React.FC<WeatherDetailsProps> = ({
   symbol,
   icon,
 }) => {
-  const combinedClasses = `flex items-center justify-center p-2 text-2xl ${icon}`;
+  const combinedClasses = `flex items-center justify-center p-2 text-2xl text-red-500 ${icon}`;
 
   return (
     <div className="w-full flex md:w-[calc(50%-16px)] p-4 justify-center shadow-md m-2 md:justify-evenly">

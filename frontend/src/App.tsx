@@ -5,8 +5,8 @@ import { queryClient } from "./util/api/httpRequests";
 
 // ============= Import Components =============
 import RootLayout from "./pages/Root";
-import HomePage from "./components/Home";
-import PlacesPage from "./components/Places";
+import HomePage from "./pages/Home";
+import PlacesPage from "./pages/Places";
 
 const router = createBrowserRouter([
   {
