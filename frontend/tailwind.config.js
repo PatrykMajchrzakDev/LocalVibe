@@ -9,6 +9,7 @@ export default {
       colors: {
         defaultGray: "#f7f7f7",
         bordersColor: "#ebebeb",
+        categoriesLink: "#2d2e2f",
       },
       backgroundImage: {
         "hero-img": "url('./src/assets/imgs/hero-img.png')",
