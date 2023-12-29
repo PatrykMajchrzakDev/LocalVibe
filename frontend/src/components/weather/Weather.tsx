@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchWeatherDetails } from "../../util/api/httpRequests";
 import UserLocation from "../../types/UserLocation";
 import WeatherDetailsPanel from "./WeatherDetailsPanel";
+import Spinner from "../UI/Spinner";
 
 type WeatherImageMap = {
   [key: string]: {
@@ -41,6 +42,7 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   const [weatherImagePath, setWeatherImagePath] = useState("");
   const [errorFetchingWeather, setErrorFetchingWeather] = useState(false);
   const fullImagePath = `/src/assets/imgs/${weatherImagePath}`;
+  const [isImageReady, setIsImageReady] = useState(false);
 
   //Checks if there is prop userLocation and fetches weather details based off users latitude and longitude
   useEffect(() => {
@@ -117,6 +119,7 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
       if (weatherMapping) {
         const imagePath = isDay ? weatherMapping.day : weatherMapping.night;
         setWeatherImagePath(imagePath);
+        setIsImageReady(true);
       }
     }
   }, [weatherDetails]);
@@ -125,6 +128,9 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
       <h4 className="px-3 py-10 text-3xl text-center font-medium">
         Check weather at your place to find best opportunity!
       </h4>
+      {!weatherDetails.current && (
+        <Spinner message="Fetching weather details..." />
+      )}
       {/* Weather details */}
       <div className="flex justify-center items-center flex-col md:flex-row pb-10 xl:max-w-7xl border-b-[1px] border-bordersColor">
         {errorFetchingWeather != false && (
@@ -133,7 +139,14 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
         {/* Left section */}
         <div className="w-1/3 flex flex-col h-full">
           <div className="flex items-center justify-center ">
-            <img src={fullImagePath} alt="" height={100} width={100} />
+            {isImageReady && fullImagePath !== null && (
+              <img
+                src={fullImagePath}
+                alt="current weather pic"
+                height={100}
+                width={100}
+              />
+            )}
             {weatherDetails && weatherDetails.current && (
               <p className="text-3xl p-4">
                 {weatherDetails.current.temperature_2m}°
