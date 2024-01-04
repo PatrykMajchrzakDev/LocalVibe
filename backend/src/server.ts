@@ -15,8 +15,7 @@ app.use(cors())
 
 //Routes setup
 app.use("/api", apiRoutes);
-//Connect do DB
-// connectDB();
+
 
 //Server Running
 app.listen(process.env.PORT, () => {
