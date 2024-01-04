@@ -24,3 +24,14 @@ export async function fetchUserLocation() {
     console.error("Error fetching user location", error);
   }
 }
+
+//FETCH RANDOM REVIEWS
+export async function fetchRandomReviews() {
+  try {
+    const response = await fetch("http://localhost:3000/api/randomReviews");
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching random dummy reviews", error);
+  }
+}
