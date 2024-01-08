@@ -39,7 +39,7 @@ const Reviews = () => {
   if (isError) return <div>Error: {error.message}</div>;
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap xl:max-w-7xl mx-auto p-5">
       {randomReviews.map((review) => (
         <ReviewsItem key={review.id} review={review} />
       ))}
