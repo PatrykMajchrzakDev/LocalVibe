@@ -1,8 +1,9 @@
 import { useState } from "react";
-import WeatherDetails from "../components/weather/Weather";
+import Weather from "../components/weather/Weather";
 import { useUserLocationInfo } from "./Root";
 import CategoryCard from "../components/UI/CategoryCard";
 import MoreCategoriesContainer from "../components/Home/MoreCategoriesContainer";
+import Reviews from "../components/Home/Reviews";
 
 const Home = () => {
   const { userLocationInfo } = useUserLocationInfo();
@@ -12,6 +13,7 @@ const Home = () => {
   };
   return (
     <main className="">
+      {/* Hero Section */}
       <div className="h-[50vh]"></div>
       <div className="absolute top-0 left-0 w-full -z-10">
         <section className="h-[50vh]">
@@ -22,9 +24,13 @@ const Home = () => {
           </div>
         </section>
       </div>
+
+      {/* Weather Section */}
       <section className="xl:max-w-7xl mx-auto text-categoriesLink">
-        <WeatherDetails userLocation={userLocationInfo} />
+        <Weather userLocation={userLocationInfo} />
       </section>
+
+      {/* Categories Section */}
       <section className="xl:max-w-7xl mx-auto py-10 text-categoriesLink px-8">
         <h2 className="px-3 py-10 text-3xl text-center font-medium">
           Pick your service
@@ -47,7 +53,7 @@ const Home = () => {
           />
           <CategoryCard
             img="fa-solid fa-house"
-            desc="House and Garden"
+            desc="House & Garden"
             src="house, garden"
           />
           <CategoryCard
@@ -73,6 +79,9 @@ const Home = () => {
           </button>
         </ul>
         {toggleMoreCategories && <MoreCategoriesContainer />}
+      </section>
+      <section>
+        <Reviews />
       </section>
     </main>
   );
