@@ -25,7 +25,7 @@ interface WeatherDetails {
 
 // This map contains the paths to images
 const weatherImageMap: WeatherImageMap = {
-  "0": { day: "clear_sky_day.png", night: "clear_sky_night.png" },
+  "0": { day: "clear_sky_day.png", night: "clear_night.png" },
   "1": { day: "cloudy_day.png", night: "cloudy_night.png" },
   "2": { day: "rainy.png", night: "rainy.png" },
   "4": { day: "snow_day.png", night: "snow_night.png" },
