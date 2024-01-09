@@ -23,6 +23,18 @@ interface WeatherDetails {
   };
 }
 
+const defaultWeatherDetails: WeatherDetails = {
+  current: {
+    weather_code: 0, // Replace with a default or placeholder value
+    wind_speed_10m: 0, // Replace with a default or placeholder value
+    is_day: 0, // Replace with a default or placeholder value
+    relative_humidity_2m: 0, // Replace with a default or placeholder value
+    temperature_2m: 0, // Replace with a default or placeholder value
+    apparent_temperature: 0, // Replace with a default or placeholder value
+    surface_pressure: 0, // Replace with a default or placeholder value
+  },
+};
+
 // This map contains the paths to images
 const weatherImageMap: WeatherImageMap = {
   "0": { day: "clear_sky_day.png", night: "clear_night.png" },
@@ -38,7 +50,9 @@ const weatherImageMap: WeatherImageMap = {
 const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   userLocation,
 }) => {
-  const [weatherDetails, setWeatherDetails] = useState<WeatherDetails>({});
+  const [weatherDetails, setWeatherDetails] = useState<WeatherDetails>(
+    defaultWeatherDetails
+  );
   const [weatherImagePath, setWeatherImagePath] = useState("");
   const [errorFetchingWeather, setErrorFetchingWeather] = useState(false);
   const fullImagePath = `/src/assets/imgs/${weatherImagePath}`;
