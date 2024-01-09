@@ -23,7 +23,7 @@ const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
     );
   }, [userLocation]);
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const queryParams: QueryParams = {};
 
