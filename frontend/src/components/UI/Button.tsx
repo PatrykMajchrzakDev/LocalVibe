@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const Button: React.FC<{
   label: string;
   classes?: string;
-  size: string;
+  size?: string;
   url?: string;
-}> = ({ label, classes, size, url }) => {
+}> = ({ label, classes, url }) => {
   // IF SIZE THEN DIFFERENT SIZE
   // if(size === 'small'){
   // }
