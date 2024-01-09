@@ -6,8 +6,8 @@ const Star: React.FC<StarProps> = ({ isGold }) => {
     <img
       src={
         isGold
-          ? "/assets/imgs/gold-star.png"
-          : "/assets/imgs/gray-star.png"
+          ? "assets/imgs/gold-star.png"
+          : "assets/imgs/gray-star.png"
       }
       alt="Star"
       className="w-8"
