@@ -55,7 +55,7 @@ const Weather: React.FC<{ userLocation: UserLocation | null }> = ({
   );
   const [weatherImagePath, setWeatherImagePath] = useState("");
   const [errorFetchingWeather, setErrorFetchingWeather] = useState(false);
-  const fullImagePath = `/src/assets/imgs/${weatherImagePath}`;
+  const fullImagePath = `/assets/imgs/${weatherImagePath}`;
   const [isImageReady, setIsImageReady] = useState(false);
 
   //Checks if there is prop userLocation and fetches weather details based off users latitude and longitude

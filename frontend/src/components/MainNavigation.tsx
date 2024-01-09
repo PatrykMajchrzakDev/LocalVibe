@@ -12,7 +12,7 @@ const MainNavigation: React.FC<{ userLocationInfo: UserLocation | null }> = ({
         <div className="py-5 flex justify-between md:absolute left-0 md:ml-8 md:py-0 xl:ml-32">
           <a href="/" className="flex items-center justify-center">
             <img
-              src="../src/assets/imgs/localvibe-logo.png"
+              src="/assets/imgs/localvibe-logo.png"
               alt="website logo"
               className="w-36 cursor-pointer"
             />

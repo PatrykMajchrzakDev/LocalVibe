@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="flex justify-center items-center p-5">
         <a href="/" className="">
           <img
-            src="../src/assets/imgs/localvibe-logo.png"
+            src="../assets/imgs/localvibe-logo.png"
             alt="website logo"
             className="w-40 cursor-pointer"
           />

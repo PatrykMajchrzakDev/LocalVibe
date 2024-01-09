@@ -12,7 +12,7 @@ export default {
         categoriesLink: "#2d2e2f",
       },
       backgroundImage: {
-        "hero-img": "url('./src/assets/imgs/hero-img.png')",
+        "hero-img": "url('./assets/imgs/hero-img.png')",
       },
     },
   },
