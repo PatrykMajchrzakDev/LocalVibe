@@ -40,7 +40,7 @@ const weatherImageMap: WeatherImageMap = {
   "0": { day: "clear_sky_day.png", night: "clear_night.png" },
   "1": { day: "cloudy_day.png", night: "cloudy_night.png" },
   "2": { day: "rainy.png", night: "rainy.png" },
-  "4": { day: "snow_day.png", night: "snow_night.png" },
+  "4": { day: "snowy.png", night: "snowy.png" },
   "5": {
     day: "thunderstorm.png",
     night: "thunderstorm.png",
