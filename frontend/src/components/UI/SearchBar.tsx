@@ -36,7 +36,7 @@ const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
     }
 
     navigate(
-      `places/search?${encodeURIComponent(
+      `places/search?find_desc=${encodeURIComponent(
         searchInput
       )}&find_loc=${encodeURIComponent(userLocationInput)}`
     );
