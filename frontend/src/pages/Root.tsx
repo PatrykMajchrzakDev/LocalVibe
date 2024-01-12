@@ -1,4 +1,4 @@
-import { Outlet, useOutletContext } from "react-router-dom";
+import { Outlet, useOutletContext, useLocation } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
@@ -9,6 +9,7 @@ import UserLocation from "../types/UserLocation";
 type ContextType = { userLocationInfo: UserLocation | null };
 
 const Root = () => {
+  const location = useLocation();
   const [userLocationInfo, setUserLocationInfo] = useState<UserLocation | null>(
     null
   );
@@ -20,9 +21,19 @@ const Root = () => {
   useEffect(() => {
     setUserLocationInfo(data);
   }, [data]);
+
+  //Determine styles based on location
+  const navigationStyles = { textColor: "text-white" };
+  if (location.pathname.startsWith("/places/search")) {
+    navigationStyles.textColor = "text-black";
+  }
+
   return (
     <>
-      <MainNavigation userLocationInfo={userLocationInfo} />
+      <MainNavigation
+        userLocationInfo={userLocationInfo}
+        navigationStyles={navigationStyles}
+      />
       <Outlet context={{ userLocationInfo }} />
       <Footer />
     </>

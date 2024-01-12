@@ -16,10 +16,10 @@ const router = createBrowserRouter([
     children: [{ index: true, element: <HomePage /> }],
   },
   {
-    path: "/places",
+    path: "/places/search",
     element: <RootLayout />,
     id: "places",
-    children: [{ element: <PlacesPage /> }],
+    children: [{ index: true, element: <PlacesPage /> }],
   },
 ]);
 

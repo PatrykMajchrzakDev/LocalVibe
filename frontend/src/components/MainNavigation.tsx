@@ -3,9 +3,20 @@ import ServicesDropdownMenu from "./UI/ServicesDropdownMenu";
 import Button from "./UI/Button";
 import UserLocation from "../types/UserLocation";
 
-const MainNavigation: React.FC<{ userLocationInfo: UserLocation | null }> = ({
+type NavigationStyles = {
+  textColor?: string;
+};
+
+type navigationProps = {
+  userLocationInfo: UserLocation | null;
+  navigationStyles: NavigationStyles;
+};
+
+const MainNavigation: React.FC<navigationProps> = ({
   userLocationInfo,
+  navigationStyles,
 }) => {
+  console.log(navigationStyles.textColor);
   return (
     <header className="z-50 flex flex-col px-8 py-5 w-full absolute top-0 left-0">
       <div className="flex-col md:flex-row justify-center flex md:justify-center w-full">
@@ -29,7 +40,9 @@ const MainNavigation: React.FC<{ userLocationInfo: UserLocation | null }> = ({
           </div>
         </div>
       </div>
-      <div className=" text-white flex justify-center w-full">
+      <div
+        className={` ${navigationStyles.textColor} flex justify-center w-full`}
+      >
         <ServicesDropdownMenu />
       </div>
     </header>
