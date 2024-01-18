@@ -16,14 +16,13 @@ const MainNavigation: React.FC<navigationProps> = ({
   userLocationInfo,
   navigationStyles,
 }) => {
-  console.log(navigationStyles.textColor);
   return (
     <header className="z-50 flex flex-col px-8 py-5 w-full absolute top-0 left-0">
       <div className="flex-col md:flex-row justify-center flex md:justify-center w-full">
         <div className="py-5 flex justify-between md:absolute left-0 md:ml-8 md:py-0 xl:ml-32">
           <a href="/" className="flex items-center justify-center">
             <img
-              src="assets/imgs/localvibe-logo.png"
+              src="../assets/imgs/localvibe-logo.png"
               alt="website logo"
               className="w-36 cursor-pointer"
             />
