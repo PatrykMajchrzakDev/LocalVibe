@@ -1,0 +1,3822 @@
+{
+    "places": [
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Składowa 8, 61-897 Poznań, Poland",
+            "rating": 4.2,
+            "websiteUri": "http://autoserwiscentrum.com/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 30
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 30
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 30
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 30
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 30
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:30 AM – 4:30 PM",
+                    "Tuesday: 8:30 AM – 4:30 PM",
+                    "Wednesday: 8:30 AM – 4:30 PM",
+                    "Thursday: 8:30 AM – 4:30 PM",
+                    "Friday: 8:30 AM – 4:30 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 218,
+            "displayName": {
+                "text": "Mechanic's Garage Center",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFgmbqEpNgm7VKJIqO9AJp2w9CVZlm_XePIkCcknFtSHDvqAK5gkFYqU0OYhu4IlWzt3D2NhSH6W6L9stCIbGbK6_BXfqDg8GzPLWYGW1O8yscb4wasbtQcrocpSpxDQrEG0eRLAsJEnuR9ZTaY0azC1U-VnWjOLCXE5",
+                    "widthPx": 4032,
+                    "heightPx": 2269,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFgXZXNLL6evcqyx_LLpQS_J04qsWRo7zHhjlOKUvHbS0gH_FLhKs0V5yjOzCjrDExNTkBpeN_ROZJDnNgWD_Zay9HkmG23Y3D9jS-jh3r917jfoIfn2kpE_ftjMqRnZij4_p105mwfxEBTlDSAe3IUlXwKqHpbmb3qX",
+                    "widthPx": 3024,
+                    "heightPx": 1702,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFhOlZ7j7wCWBCdkQ4d9-Q6mPwDV3YF_Ts4cHmmTtLXIBmoMJvDZtWyE9foo27KyI59g9Qh6qtKgl4jFNIDNxQEwYHMvm2IEMATaSqgAK1DZzXXJg6eSLZxP39qgcOkBh65Vv445t764jmy6fX9nmR3e7SG7mRa1ZyQ3",
+                    "widthPx": 1008,
+                    "heightPx": 568,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFigMm32IU97TlOu51gEEozAl-ixdlUezdkqBQMZ0lQoMFRckM8PoiKRJc_RLb_PAYbVMOQSIA2WluYbl9i2d8V26brFlv2hoReT07DQC7sjx0_cq2EXo5JaTejA5dzVX0EdQuzKtSUAMhXUsWhr0LMu0dF1RMCJ8Z3O",
+                    "widthPx": 1599,
+                    "heightPx": 1200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFiUEBVkfZTaSxMWqBbf9RfYZ0StlrvnC3X_XzC-Ug6VI2IDJfzSZZwOnpNAzeTy8CPdgRwX-vvdxuI1gt1aUgbHvpUlth6XCLM4bRhipHZSXSBjNvFgL7t3JXh0t4tnLQ4yXOliN-ELnjr0oXG8rkhvKa3KU80wAXo0",
+                    "widthPx": 1599,
+                    "heightPx": 1200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFhg4LU5ed25TxDC0iRt9rOpo3N6oqb_o0sxapc1IIMFIZ_3dxCqO3B7vExS6PJu14fd-L-27oJAoSED560dBCTPZT0gi4wTVZjTqTdaS2xWgn6WhKuhLdUBo8fo2VCtBj6JDDM6OQc4ANECDxMNPpPwY1-kYwlqYdla",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFhGNBu3X2JMkIJCg4r0PCD4qby_mWTG75efvkzsr8T-_KAZJANK_bYXQ9VnfEnKnNEggxsZMJIXIwPzUDoF5At7LfTW9ZzBkt1vm0Hl3iWcnedKirvp5sgzfD_xGmyca40gswA8VE2GakkAe8HcpS0Ab7avAEjWHbEL",
+                    "widthPx": 1599,
+                    "heightPx": 1200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFjsCM_bW0ofr65N4FRX1eBE09-VvQaFSOXUbzCROGeQCeFP1IXPRDmyj9Rkjaq1CuF1Ccz9-sL6NPiTftIYrJe9VPJdni15yZ01q91Moa55E_nHZmEXvcH2GHHotYmtd6QNWj10xDjKYtxRk9HsnwGOvxskZqI9EuF7",
+                    "widthPx": 1599,
+                    "heightPx": 1200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFixpOMHeUu5Bf410TDhhPqZA8rdf78punOn1ii_auWbMvglYNVUgdEevrhHNjWX2c0LFv7y32NDsi0fU4bhycchaGmaYNLgnbt8pavVneTmbtz5o68L4E6ze54OddHxNTPszNCnNlINlY75omAoVhpRgk7iFIcYXRcZ",
+                    "widthPx": 1599,
+                    "heightPx": 1200,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJT9sN-TNbBEcRVRtrh-TTAdk/photos/AWU5eFhNIIYhhBenIecOJXfFEI1x9Ey9G6Qe22HB2NNSQVa8fZ400gKpa4LGRBVnrM3QdYNK2LvFaVRG9pyzNUZpA8YnV_gZW9K-z0088ECmPhS9XS-UAWnKm5LQJpS0TrHnPDtqti3Df8vFgGXa5TapM8vV9S4aESMoRFkD",
+                    "widthPx": 1008,
+                    "heightPx": 756,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto Serwis Centrum warsztat samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/114543338221015774983",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7LZhpuVNnY6DiYFsZ4jWOw5yYygtYnLkD2ie7uJtmV5o=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Jana Henryka Dąbrowskiego 29A/26, 60-840 Poznań, Poland",
+            "websiteUri": "https://warsztat-samochodowy-master-car.business.site/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 5:00 PM",
+                    "Tuesday: 8:00 AM – 5:00 PM",
+                    "Wednesday: 8:00 AM – 5:00 PM",
+                    "Thursday: 8:00 AM – 5:00 PM",
+                    "Friday: 8:00 AM – 5:00 PM",
+                    "Saturday: 9:00 AM – 2:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "displayName": {
+                "text": "Warsztat Samochodowy Master Car",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJY2volZBFBEcRZ51TZ2BYPvk/photos/AWU5eFh5ES4ZB29TSMY7FWzimCopZ2XNtLRhoeabZ7Te4VV_kUeyaHwFkBM45AQqR0Og0o3cDnOf4ZB1CUeUotb-4k6IZsop7yJUXUiVb0_8lijkSXVciYDR3uB1QJGzREvPe_q54RE4M8VebNncdhMLEUP0BdJM68C9nDA",
+                    "widthPx": 2119,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy Master Car",
+                            "uri": "//maps.google.com/maps/contrib/111544487623769033732",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZ44Oyw1aUAoNU5R3wWRIlLV8zwtOz9sUP28ITQEw9=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJY2volZBFBEcRZ51TZ2BYPvk/photos/AWU5eFhnwuS6kJ9o2nkYCe1SOjm8KXUE1Bj2iSIc95nhdTyKtZYzPkqmg853nL4vgr0HKFMMwXpaWGiOFHWIlNbCQPBBb3qkMZ7DZYnrFZFnTg885LegeqW5ywNb7kftU5eG8ZjDBBBZLiFvYJ5rKjM9j0GVG7bQIfJwBZE",
+                    "widthPx": 2122,
+                    "heightPx": 1412,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy Master Car",
+                            "uri": "//maps.google.com/maps/contrib/111544487623769033732",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZ44Oyw1aUAoNU5R3wWRIlLV8zwtOz9sUP28ITQEw9=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJY2volZBFBEcRZ51TZ2BYPvk/photos/AWU5eFiZ0uSnhiu2Kx4LORjaPQHWXo_ELQj6xTQ4pqkMgolQDPF7Qn83tpo44njZfptjDhRBf9xGJ2PoaHoSp3t-icc3czYaX4Gfb8usXrFF-VJCVK3P0C2U9JXYvVlIUCQocGNEqIwYTTkMLLw6SBKM2MUXaIlDtoL2J8k",
+                    "widthPx": 2121,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy Master Car",
+                            "uri": "//maps.google.com/maps/contrib/111544487623769033732",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWZ44Oyw1aUAoNU5R3wWRIlLV8zwtOz9sUP28ITQEw9=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Pułaskiego 23, 60-607 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "https://automechatronic.business.site/?utm_source=gmb&utm_medium=referral",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 5:00 PM",
+                    "Tuesday: 8:00 AM – 5:00 PM",
+                    "Wednesday: 8:00 AM – 5:00 PM",
+                    "Thursday: 8:00 AM – 5:00 PM",
+                    "Friday: 8:00 AM – 5:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 110,
+            "displayName": {
+                "text": "Mechanika pojazdowa, Automechatronic",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFiFh41yGyMG8AEbK9MrmZtb_u7MsZSDhkY3JIYFuhEQB3NyiOaQp2bt207IoU6fGSCqyvPfCM2XWXn1tskVFhpsJMUF26GQMqZxGRMMpYIV0ehMWWSi9sE4dzFZ5yVzToH3yGPyXxt9EyTDDR_E_4Nt-6L5yAwxW1DU",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFg2VLYpW98TwHRt_HpKARzWnZ9GscaHOvs0w4gsYLnl8U-tX-oNneXYyDPmwp_G89KQDXVUeOB2aPeuAjElzcb57Z5TmB7e9SkBPXoYpxHo5tkkAwDswv8d-J2nUYwT_2HnEdWifx5WVC-40v7ikFcq4TGwno0FjKiD",
+                    "widthPx": 1947,
+                    "heightPx": 1275,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFgAjR0lB2VcKR64TBracExJwOto9IzZcCZ1LlcUHKPlg5q0JHFa18jtHoLsX3b73ePqiAV1lxHn6f6Cftfn-Sm3ehDEZM7XX_H4tz3cHKOy_nYusQLLv4dhqHT3ivUdhyJOaxvjQnKXFvJYtNfhW0mwyB267Rgy5wD8",
+                    "widthPx": 3902,
+                    "heightPx": 2809,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFh8Lp7n3BlfGteoGmU3zlZfxmLLZa2JTZkY1NoVeueMeGRmJPfuTysw2ZbGTE2zBkouElnTBfFsab76UHveHeuIyWZN_zC1uN1tQG8iHHVEP7iPriEY9EVJOXbQJ2POTqv503tLznEJQQWL-1ck-sSgz5un-KOyVHRO",
+                    "widthPx": 1770,
+                    "heightPx": 1868,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFi7TYM8QH31YXSuw-F38TR4ysCz-hkJFjY5sMxKFdlbUe9ohiJnsC0Uwhqvr72VFMNPPwDiXpRNEhSyFC-Md8urpirmMMFL8zVFiOrlq2eBMqTuF33iv4ezI7G55fGuvvprp-6jDSr2o-jT5-k0Z1IiA99fTFV6nutQ",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Przemysław Szymczak",
+                            "uri": "//maps.google.com/maps/contrib/113815351910707908218",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVLu6LbAaNdUsYnRae5NGKP527VcDqKNqBISt92xshjDw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFjjal70g51DHO6R3Co7Jw0AVgWFNP9kMSUTFyDIDCJk-kiqVHpjgkLvrKkWVEkzkYJR-7ZOadWBIErbcz-D-cm7vUIF3UwBYthZPWr1UwDIg7eYsF7_tJzL4GUQA22h77HP1Pvi9Wo1RkOfhFpggsMqE5n_X0M22ipN",
+                    "widthPx": 3799,
+                    "heightPx": 2684,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFiiyK_kqi6zlqcZuj9u96uXmfn88-y9OwGTt1qbsVZhz4bM7o560BzULQYRVfaSbkVC1ydsHSGyBQkHLIz7FAwQkVUoQvCSW8Sf5GZm1CATY0HlwVndt4pEEFFkhVYd8AOR_6x039s9BkMzNufKxuE_nYOrV2NHzHVD",
+                    "widthPx": 2190,
+                    "heightPx": 1369,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFgIpDW5WKpMD8cj7i5lzdlA1Hetq0lxMl0nCw4p-4p0Wr5kpFhgMCpQtoo2OZC0alPNMtumTCT-7hfkDJ7UlP3wpMQn6TMMq-654OATOVpZHEw68QUX75opwlvuMjWEp1C4zSZVt1rO_c0QKTEIZIYckEct6MnTU9Pc",
+                    "widthPx": 2990,
+                    "heightPx": 2991,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFhZC16EQ7LdcxQ3lTksQBr_3avp93bdPOYgGROXpOOd7KMQ4BKautRcGXM7slt7x39hRJA8WatPrRBh-ZG1d0GGnTOu44w5RDsI-76EsF-_yt-1FbqgbS7A7g3MQkvYADOZv17WEs4Tqt3hMX-dQNdW12jBM5_3aZlD",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJh5Vr-kxbBEcRLzyQKnqYd4M/photos/AWU5eFgTUtQnGzVpqmk4aMN0PSvXbM0AtWLWiO8Ez1UTbkhJ5zRoEXI-S_IhW4vQH4BX0wmEbqM1-d1UY1NeIw-N3KifNSQrYNFsV7XUM7C6vhcY5VDwgZjGKyo6XonMd2FRwrLY9qamEN7I3qq0-ZEO6yFsRFKQkuKxF3Dg",
+                    "widthPx": 2120,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa, Automechatronic",
+                            "uri": "//maps.google.com/maps/contrib/108768505195409781692",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJHeXm4FC7uqvLpZ0biWELP8up_Np9_dwVj64lkf8xAw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Szamarzewskiego 42, 60-552 Poznań, Poland",
+            "rating": 4.6,
+            "websiteUri": "https://www.autozagorski.pl/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 7,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 7:00 AM – 8:00 PM",
+                    "Tuesday: 7:00 AM – 8:00 PM",
+                    "Wednesday: 7:00 AM – 8:00 PM",
+                    "Thursday: 7:00 AM – 8:00 PM",
+                    "Friday: 7:00 AM – 8:00 PM",
+                    "Saturday: 9:00 AM – 2:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 389,
+            "displayName": {
+                "text": "Warsztaty samochodowe AUTOZAGÓRSKI",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFiGfbOSvyydqvV3gjhB6p3FWuMVix3IEhkpzZFMbxtVP80O2dqxRXuA4BcrP0z2Jvs_3uTjbXIGTq_CFAaFVCxxYyGdW9GKDRwddo6FqvCZzB1c0uKMPmJebtOtPX9_A2upGtjNywNIwFiyry_JfGdHy-dUCDS4ue5s",
+                    "widthPx": 2124,
+                    "heightPx": 1416,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztaty samochodowe AUTOZAGÓRSKI",
+                            "uri": "//maps.google.com/maps/contrib/106409676507580610235",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU6S6nA3cfdOYEOKTSgEAkkgCh9k9NSvZ3UPVYZz_q7Jg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFgnpIaAyrAhhoiF6N8yRbpP85k2bvJqJp_CDvNHti8GxzB7EA4BKXLlkBLPbDtmn1yfUsL03JpA-HFlCFU6Z0lpWsOYjTMelxYQrcAvaylfzfSR7PCu3SVVmo6nB0V4Du2fnd1738xL347FSJyhhevZ99bLoEeq4u1o",
+                    "widthPx": 2124,
+                    "heightPx": 1418,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztaty samochodowe AUTOZAGÓRSKI",
+                            "uri": "//maps.google.com/maps/contrib/106409676507580610235",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU6S6nA3cfdOYEOKTSgEAkkgCh9k9NSvZ3UPVYZz_q7Jg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFhwle1OdyP2zmu5VoGTR4a5WTEGWKBba9a4lIJfWz8-hUiDSLdLjUUse5vL7V6qlD44FRe6TrypD8Bp8B5TGgYfIt5Ygi1SY7W7A3eekxBmSNGGmgg7TDeZ0K6dMNjPahNi8_6yrUBJSju0inE9OLzo4u1E98zAWd3n",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Krzysztof Rybicki",
+                            "uri": "//maps.google.com/maps/contrib/117511763098508865982",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiuwxW1y4-_IzXpeOgUspPbSruv9M207SIouN5NM0t_lg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFjFpVL4uxrjYIU8H9SaIbriyjD5ThO-yFe13m9ctyQW4d7vgWfWoP5-XsjFazTZk4NULKxwTGOEDMXYnDPZ2UgWeJ8fUkw_XmdX7SIyN3EBCeaPAbX0uCX6SI0xPbbiACkCX9WB6uWgZNTgLHuW_nBbTsiRFhudIoGe",
+                    "widthPx": 3072,
+                    "heightPx": 4080,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Krzysztof Rybicki",
+                            "uri": "//maps.google.com/maps/contrib/117511763098508865982",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUiuwxW1y4-_IzXpeOgUspPbSruv9M207SIouN5NM0t_lg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFi3UWj__Smx_nCcYoCHvBnV09WW9TMGPpsqPWxpYspMQdz3Vf9_6_uouv_0jTzKA9efYVzkAmekOjWnVnfbL79V-AhFeqq15Lb9-LmbW16We1nchafKyBn-71zqfjn38ye7sNsn5ZwDZSfGKbT4u5Ql6xLDrpmMSXRi",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Bartosz Sałbut",
+                            "uri": "//maps.google.com/maps/contrib/101204346872806705249",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLYrQwidyReZvjK9WtkL4cIhbaVrsKYvmTE4eZ_ZCc6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFhp7wCF-D0C5lck-KG7PNvcvR5zBmTc2msTUpaQ80ID_dy0tsJo-GKSYAnBNRtt8vQmZVgH55YACErE8cC6tQWzHvgS_pURvSWcmaz_W8yKa27bDWqkzEijKqFMPLWfTTF3FOkgodypTWH_j62viTvdwethOQK2Uclt",
+                    "widthPx": 1512,
+                    "heightPx": 2016,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Michał Sowa",
+                            "uri": "//maps.google.com/maps/contrib/116796582926978106285",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCI5BCNoOAmqWngAnGdtNJHHiXF7yGyZ4me3TTzKB3=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFiz11AYaUisu55h7Jrbc9lzrYqXTNDm_ctu3rny5NQVJWg1EGtBAanHA2mKY1LY4LS1i4PF6w-9UnffSnX6PMsH1DPa0_vsRrVJ6LqOJhZrNbtP5oGQc71LMET3L-vIA8NXmbm-j-x86BoCMrxIdm2AeulpO4xo0Vf0",
+                    "widthPx": 2136,
+                    "heightPx": 4624,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sergii Shupik",
+                            "uri": "//maps.google.com/maps/contrib/102754513423458566042",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXcozRC0wKVRFOM2UQ2xAvC_M2dmz-YVFiCarTfii176-8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJv7J01cdEBEcR_TePwD1O6Wc/photos/AWU5eFgqg0B9H2LL8GHg3YbhRekjo0vg_wW2jaJCGrJI1viGZlw-I6ccoWjXQCXhbsFVi0A-NK_htmuFRzr6dh0Detf7Pq-Zi54u76vcUfoM4wXWYSllB3FdzG3y-hhixlm6QZ9TUNBR22-p6dhZJ4sDePzdyX4dzRPcVOqZ",
+                    "widthPx": 2330,
+                    "heightPx": 1748,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztaty samochodowe AUTOZAGÓRSKI",
+                            "uri": "//maps.google.com/maps/contrib/106409676507580610235",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU6S6nA3cfdOYEOKTSgEAkkgCh9k9NSvZ3UPVYZz_q7Jg=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Kopczyńskiego 1, 60-682 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "https://www.autoserwisgg.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 147,
+            "displayName": {
+                "text": "AUTO SERVICE GG",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFgcTtWOQGINzQ9STMcTWcRoMxHCCnpj1zbI5ap7CutWSrHyyWNO7JA5k3V_C6or7t-h1h5XlcFM8XBeqYggoBMhOxbVPeZW5iei39ceD5Z3HgsWpHFwuJTGiabgKy9Lxl4BOeWtrRii7GethAjoC1Jsg3kArlHP3C_2",
+                    "widthPx": 953,
+                    "heightPx": 711,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFhHCDjnKDoStQqJzj41RNWwJF3U6L8isC-VoZ2udiyM2IpWzl8taPgfJF5NpHa2cURRwiw9Rr5lYwudp0EW4fxOn-r6HGgdPcn6RIw4H3u6TexIsm3wVlgteLMwVMcJPuTHrjxQW7xihBtwHzvd4bxcCyJX742smHfA",
+                    "widthPx": 800,
+                    "heightPx": 600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFihN74LwP7S8EXqD5ko_KYcl53Ebk7tfIVDZw_kSouIfGSbLbdC8t2s4iwVRmHQmtshJLs7gDN3uxUijXTbf507s3JV4DCCkBvXTaoR_BRN4b0PSI_d-9t67QRkvPWbnH2p1LKu_9oaSVeehjh9856p8DK_2eIqN9u_",
+                    "widthPx": 800,
+                    "heightPx": 600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFgFHgJ2Zbot8U0F_5WtufNqtapu1rIo-cogowhVatJEZROYvtlPn9_8zuY7VFVpGClwhxkO_X_iXRcgKMAUANmjZ2xMszkFuhAGZJHQYO2Hv1BZpSJwB3sJSriXVLwtSQvEQIrgdEb6Nbp9X54RcBVsJlEiLG-wN92q",
+                    "widthPx": 800,
+                    "heightPx": 600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFic7ERG-j9bhfBIBIzaPjjEzaKMwQCdFBLhUR-Mg57YLw7Ss5p8blikYn7Lmm9fh1vAWEfSL8hF_GylM-JDvIQUNtIDAm1NZ4PjMdY0zXZi_UOBgZGiw8eAjMhCAEWWvWeDdiqqrLX74Q55C6XwiCu_MRiiuOaOy38R",
+                    "widthPx": 620,
+                    "heightPx": 466,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFh4EPcWXjaQgKvq3KKjlHcTuAGGbzn6JrSUi7pKnbkdyArI2fTg9vkUEqNnM7sRGsPcl_kD9XdU3VyfQxeK0oN-YLxvD0crdtq7ME19n00H4NuaHSYB-qbju2klNOrVUG4aBfhyLXG_kg7KVIHVwdhYWEPvPE0tEQEZ",
+                    "widthPx": 800,
+                    "heightPx": 600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFizkmIgHgclfOglQ8dXt5CT6SuemP4PgQL3QC68AnooiI6oiUBjg3x48UwSKs-VpiZXe7apMBJlZpGuG9C4GeuckjTHtUpABAWiorI3iN-Bb6pMn2Z3TgX45nqLtgINawy2GLy4nWvo02cinOgfsWgb8FirfNq-ip76",
+                    "widthPx": 800,
+                    "heightPx": 600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFjPfZsYZDGS7N5NpVqnEnPyWdl1wOFu5R7fAM805Vyh2uFIcsZzPrzSKeHv2_JzlOMpFRkIW2T5Ml91YrEZ-NodROKe-v7Qz-Yy0QxAMInCxYp6a5SyCAGRhhCr73kj-gmhOxZiB4sad8TrQJnBmoTnawVzG-9XNs6Y",
+                    "widthPx": 620,
+                    "heightPx": 466,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFhaQLLSRGJ_CkeXlZDstNAZYC_6-gZW_l4NY8TKTYn_L4c8DDUz9GBjj3dRlnPthQ9YlQEwiJQGBsryl7ywiNg8Of1Dq7Th-m_TK-PO5Dq1Ed4eqBGFDPrz8VZPr6OZS24DIE4DWEjhDHU409TFUKuNcsZ5_nOSORhL",
+                    "widthPx": 620,
+                    "heightPx": 466,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJGQSZx0NDBEcRERp1KmTtTkA/photos/AWU5eFjhh_N4o2Wa_kvJhv3xRThoXGt7OCBzmR3MZFdoRZoZPeKd-Hl8G6pTdRJN7vkO0QEhPrnXSOljzNnLksBid0OCcOg0ECoN5yIyZlk5FE8pZU4_4MAzLlRDmKp8Efz_Ok2Nzli-o0jgzLwaK4w7GaGwC3lN0tLovxT3",
+                    "widthPx": 620,
+                    "heightPx": 466,
+                    "authorAttributions": [
+                        {
+                            "displayName": "AUTO SERWIS GG Warsztat samochodowy Mechanik samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/108352256347455898255",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXxC1SpIv27jAmWxO9HmENYis-JSvdT3JQ8ErsIux5ouqY=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Odległa 3, 60-106 Poznań, Poland",
+            "rating": 4.5,
+            "websiteUri": "https://warsztat-poznan.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 9:00 AM – 5:00 PM",
+                    "Tuesday: 9:00 AM – 5:00 PM",
+                    "Wednesday: 9:00 AM – 5:00 PM",
+                    "Thursday: 9:00 AM – 5:00 PM",
+                    "Friday: 9:00 AM – 5:00 PM",
+                    "Saturday: 9:00 AM – 2:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 40,
+            "displayName": {
+                "text": "Marcar-warsztat samochodowy, dobry mechanik Poznań",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFgRvnfuKOeDjrfbbgBCbbReMcbvR1JT-f6XDJi7vslAqKFyyPE2omNU_m7hnFEIF87jrJpqLm1eEPFPOVitcJthcQTA2S8n9FCbz3u2uCo8v3nl0MEyGPQ9Djl21iux4_XfmazmvGdYofr3gxGF145Az-1Vo9zBcwsB",
+                    "widthPx": 2560,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcar-warsztat samochodowy, dobry mechanik Poznań",
+                            "uri": "//maps.google.com/maps/contrib/100737328363205828521",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKlbrjIsNuGwY96Q7rYnNlv6hjIHmU_yq5OJb04LXIM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFhJLQJCmYemJ8QipMRaGGCAtRvwSiox0ejucqFnH1GhEYdHotiU7TtLUrCYxBPq1jEMjM37cDJpFa3wXOcVy3-BwBd_RuLj4XlC3YXNDBRMgowQ5yYTrCV3h1DBNWgNIwGAMM-6lTCbU1_laTuqv56rEAgA4jhP9Wbb",
+                    "widthPx": 4992,
+                    "heightPx": 3744,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcar-warsztat samochodowy, dobry mechanik Poznań",
+                            "uri": "//maps.google.com/maps/contrib/100737328363205828521",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKlbrjIsNuGwY96Q7rYnNlv6hjIHmU_yq5OJb04LXIM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFj5xgYR1nlx57iYdK9RA_QfLBhTHOzUi3j8iX16yJX_-qKWBk6ChcIjwfsz0ACYEpF6UqjWRQsiLSmYB2B6lLyMcwdUnL2LuzdOLzh3E6Lg8NQRzNal7mZfFGPS6irqyLYnksDpcOxwyWD543-cX4poIV-JV8uuiSic",
+                    "widthPx": 2560,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcar-warsztat samochodowy, dobry mechanik Poznań",
+                            "uri": "//maps.google.com/maps/contrib/100737328363205828521",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKlbrjIsNuGwY96Q7rYnNlv6hjIHmU_yq5OJb04LXIM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFgBuXt3OBsjlfFwosareVvOv1CesN62DGghHzNzYrokFCow8nwC7p4iQoymtjMq681HCZHSFalzH3a9UmQoXyoxrehlZ74hykb_6C-Pw9hx9y91IH_Szhcn9gktf_8uWHnmwEnuiCEEYB7J4eZ_ggnY8zdDyBVlLCIj",
+                    "widthPx": 4992,
+                    "heightPx": 3744,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcar-warsztat samochodowy, dobry mechanik Poznań",
+                            "uri": "//maps.google.com/maps/contrib/100737328363205828521",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKlbrjIsNuGwY96Q7rYnNlv6hjIHmU_yq5OJb04LXIM=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFjZyTMJdFEw1tgyzxBniirlLF8jrvhYqgzpi97xTSSfGka_qd4uU9PJB0VXDv3CT3nNKTi_fHCZCmkwLP7jEmlB9-7Rlw0ZhekcQg7cYRTpehKxhgD-nRisWZSvzwscrqE1_PLCSMMPIpS6-aNHBVlMlSiQjja9ST5f",
+                    "widthPx": 3464,
+                    "heightPx": 4618,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Wojtek Er",
+                            "uri": "//maps.google.com/maps/contrib/115374033664764318278",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp8Kp3tbLntuAOmrNN6_60pZ3U7R4cFfV8pcqroP-XlKU=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJAdXxcRZFBEcRSswN1qtegqE/photos/AWU5eFik2yTQIbyAFNVpuLmWfneSCxLFMbtW46iOUnq_t97t_5vbMqdC2tBc3EVZR1XuyDJVRfhAhXbRRm4VvmQohPSb3Xh8ftZvqUImyp6ZyzAwHCUt7ckXUYpxuz5XzJIETbp0B04r7aezucttq2JOHQz-jMpRnGv-fdV4",
+                    "widthPx": 3464,
+                    "heightPx": 4618,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Wojtek Er",
+                            "uri": "//maps.google.com/maps/contrib/115374033664764318278",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp8Kp3tbLntuAOmrNN6_60pZ3U7R4cFfV8pcqroP-XlKU=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Bolka 16, 61-608 Poznań, Poland",
+            "rating": 4.2,
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: 8:00 AM – 4:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 130,
+            "displayName": {
+                "text": "Car service ALL IN ONE",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFjuiw5Op9e89kpKKd9DWZJKx1hvnWyahl57T4k5qWBfHSfu9IBmGOAIOWzNvSec1frVZx1QUUt-0fBXy808xgagMk-9IDiyEq_UHKrxOMx55W1rlVwWsO0I8Qt4Jn8Iogb7SKdWzUF3nb-eRESSj6C48rMk3clzbW5L",
+                    "widthPx": 403,
+                    "heightPx": 537,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Serwis Samochodowy ALL IN ONE",
+                            "uri": "//maps.google.com/maps/contrib/113686720716717767003",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUKwMLfrQbrUY8J6GD1p3BwdpUPhYgfVQ426cBsw-EZ3Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFjyKcTO5Ulf0ox608r-vPnCZzvJgK4qFrSf3Hu9ILiu2yGtzQZ44eadRXOOKGHDCdf02sXVq491Vr2RqhhYK1XurY_rX1PGSfcTQUN_e7R2lR_LKDQEETOCEW_mLxvwVCw_ltDZM4guI5Vus9RDRkqItqGPxv6UtN1E",
+                    "widthPx": 3888,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pawel Urbaniak",
+                            "uri": "//maps.google.com/maps/contrib/117605718969936249349",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocL_bIK94au2T21n2_aHY6v7QoGGcZXpHV17gcMrHhXk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFihx1-1K3OS375rPMFsxNfJqDvIuOzqhS_Qj-D1VOv4BmnHR18JiwZAPFgc4vTS5vAem0aLwcVx_KmRqwDrmQ0fN4tcWYSD2j9gpLdTWmzabsNC8Fgt53KMID2XYv-bWt32YfiIHRDlppySeW8pLa6Y16bq9qom80MT",
+                    "widthPx": 536,
+                    "heightPx": 318,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Serwis Samochodowy ALL IN ONE",
+                            "uri": "//maps.google.com/maps/contrib/113686720716717767003",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUKwMLfrQbrUY8J6GD1p3BwdpUPhYgfVQ426cBsw-EZ3Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFhZOPL_mPhDJM7TXK77kkjSWwM2EWNBHM2UMRSKBO5HV9krlYmpSKYvZKRWFCeoB4GVd-G9c59J8IwWByWCbGSFwL-kVM-yzt6Vh84kf486L_mqKmMuSXIQUje9Ur-hJj-pdNjV0ZIbkfhEOXdy7ML3H6iV5gK9NAnZ",
+                    "widthPx": 2000,
+                    "heightPx": 1124,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Maciej",
+                            "uri": "//maps.google.com/maps/contrib/101564658011264144383",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7muu1SLEteMnXvDpWzF3ygFr5Fr7ZCu3grx15ZlwlMG4N=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFisS4zB_veWeAFBBkXVttOwcSo_xjVWHOl21Kzk4DNsYivLQciOq3S5dNECQtycs-kmHChws-6hsu81hs-g9l78sKG8Kqp6iDokakjLJ4HuXKOhcm_EQRPk3b21kRjhh_hzefUFb17yFNAl18zU2CdeA1z0aRrkvVl5",
+                    "widthPx": 480,
+                    "heightPx": 480,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Serwis Samochodowy ALL IN ONE",
+                            "uri": "//maps.google.com/maps/contrib/113686720716717767003",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUKwMLfrQbrUY8J6GD1p3BwdpUPhYgfVQ426cBsw-EZ3Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFgglAqBCLvb7LlG65RsQSUZHm_eCU9vAookZl6_nZq3jNzXWTtkq-9xEK-OspPpbiVEwmvmnB-yNfUnyrljtl29GkhtltHGOhLKb8rm-o_3JEct1-eJcsDd2fNyR2N2s5pXjAxtDAWvhYNBCZHW3f_eD-XX0rD0W4WU",
+                    "widthPx": 2000,
+                    "heightPx": 1125,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Maciej",
+                            "uri": "//maps.google.com/maps/contrib/101564658011264144383",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7muu1SLEteMnXvDpWzF3ygFr5Fr7ZCu3grx15ZlwlMG4N=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFiUL9c1FfR1Imhe6TBzHFhk77VJREhujm-A_Qh2hFCuQ-P70CWvY1FkMVkcWHzMcb84icLGfgq7u1zKul6KpFiht0otDgndLmhsKIaxyFcQ-QBErHJppY7JsXOukRjhqhU8j5J_yi0SdazwKNAx-YteOaoZpPgrd4Cn",
+                    "widthPx": 1080,
+                    "heightPx": 2246,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ma Teo",
+                            "uri": "//maps.google.com/maps/contrib/117058625247974089081",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKo-zG5iJO4kzYRCdEDuiiGDTpLL0z5Zkz29xAUeYmj=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFhyYHwP4lY3thVadpqYBy8ucIAHadCE-0Vbompe8TbfK-6QYKZHOUBTpRjv08Km2NMjuCSeFs1tWZ5zjcORqxP0vUr7fii4LCnQRDBIlNXRkppQPpyCTUcx0E0nG1Z6JZuuLXp6iofO2SZi0aVXYPD15kdZoy8h1EfP",
+                    "widthPx": 798,
+                    "heightPx": 689,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Serwis Samochodowy ALL IN ONE",
+                            "uri": "//maps.google.com/maps/contrib/113686720716717767003",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUKwMLfrQbrUY8J6GD1p3BwdpUPhYgfVQ426cBsw-EZ3Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFi0JTLLxx02dduZLXl5PEgaVaThOPnmz4GbFwCl42abQWTntE-hvWG4fNM8_YX8h5j66qSMipJf-Rp6WSvGBLB_f90_yMCqxBsBRTQtWnJ584ngLc9J0PjGO9JW4Z_onCfM-88eYSmeDw5jcyptX_JiayRGUbGoIuqV",
+                    "widthPx": 3472,
+                    "heightPx": 4624,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Artem S.",
+                            "uri": "//maps.google.com/maps/contrib/116556879897932715957",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJ7IXkoigW7tv7W7SBPmLthbSkcYuEscaDBlRXfzKVimBQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJIQxFi8hcBEcRnhZxrX5q62E/photos/AWU5eFj5me-oROPFRcdJ4ZaTRvGu8ewwgZ_57fAgSgPDvC39wqekgEO58yN3F0yTQZnbcp8gCaWJ7DrDH2tVnSReX5sQxBEM-0di6mFmLXKdyRCYxZqChi6V96LBWvY3KFnjsez648bWR4Ha_Q9G3-d8GI3F3B-P14LUp-T5",
+                    "widthPx": 5312,
+                    "heightPx": 2988,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pawel Urbaniak",
+                            "uri": "//maps.google.com/maps/contrib/117605718969936249349",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocL_bIK94au2T21n2_aHY6v7QoGGcZXpHV17gcMrHhXk=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Grudzieniec 23, 60-601 Poznań, Poland",
+            "rating": 4.4,
+            "websiteUri": "http://www.autoserwisdorian.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 67,
+            "displayName": {
+                "text": "Auto service Dorian Bączkowski",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFipFg1G3sSHifOZwEWnSFE5Nq0YSxbguZ5vkdWKjC6xey9-pH6ru2TaR1sg8252HVIIe6nL79URlHLukCAzpluBIhmh2SwZ7fOTDfsevjVPZ3wlQQopv5ZisRd6pM01ruSV--m_fVXAP_Qce47-TW1OPW8HE2T3Eqna",
+                    "widthPx": 3612,
+                    "heightPx": 2032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFhWKeMSElRwx6IdQzaJSi76fIpQSYWnN5rDzrou1MhzkspBwj3y5BqD0OcXcjsN81f9M87Ii7iz2ONuT3yq2wzTeiIB0KQdyJ1ChSqyJpon5E4h7Q8AFkavVV8nDbkIWTJLccup-1FZHNldpjpjqsHVLkk2CSxbA92j",
+                    "widthPx": 2048,
+                    "heightPx": 1536,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFj2Y5Svy_pBVhsjjgS4eQ0y_S2k2W8UJWAqqk0Ry6DDiVIsihEO816QO-clePv19ICydbjd2kdisXU5U5rjnrZvsEYk18MGMY8LfLEOLDh1z-4Za6w-CPp9EKAas5F0uOszECXfnBEDkR2-XtL3JQ3xNgoPiTuafxFo",
+                    "widthPx": 1630,
+                    "heightPx": 1222,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFgt5FMYBOGnJQ5niFkEYyBYBLfd-3TVxikfMg5slmjVOAekaQHmP7vlKlGh996Mw0n8XaZ0LKQHi1VmSp549AwDMk1Ki1SWj-uMWzlOttU5-7puY1L9SVQUwIz5VDMTB4GgZuXOg_YeXd0Tr-Q_ZPgRBH3Vkw3d1u6j",
+                    "widthPx": 2048,
+                    "heightPx": 1536,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFgN4zEeBIgUpQaC8Tab4zjlNi6-wz7XZm_JIXoB35NJlFVnMqZiuygfbEA6211HMO8rJUwextXNpBCHKQGbzhynCZf9Yuq6V9zP858WcdSqp9Ii7TxtVdSuCu6JI61staXaOB3J2aOWxI4pGp0ajd2Lfm3hqPivcxw0",
+                    "widthPx": 3612,
+                    "heightPx": 2032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFgdcbFbWTnZVQDBLJ3JWbP2CD8vpGiTZuHovzXTudDaLd0BqM3mD4GQ9tXc70HpW5v50mvOUYxV-chT1vA7l5PpxPiZy7ZxsWuEC0Lp0DAFrULylqVrpBYp1PRhlEuA__1jBfcYFxs8xWE5GmaGnwTXDZxRxAIo3K1S",
+                    "widthPx": 1574,
+                    "heightPx": 787,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFirByTgdcAQQe3_FAew_vMiRyppSBof5kSjjXPZIQClNW6lv4cyTx7ElPxb_kutXtijUkroY518mknMcEjB5dtTTpHw5DLF4cXCnwGTi2QPJMftUq0oItDCm-wbC3BVKkQY5A3Yttue7bDWYLyfQtfCBTKETuTvvQNX",
+                    "widthPx": 3612,
+                    "heightPx": 2032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ-2XOG-5aBEcRr3OCQpOK0ow/photos/AWU5eFgD8nNqiQOZLAoFFmE1F7mMFdHUbefDs60iXMaKl2bCoPNOrca5FpIzGwf9ssYM5YFAVwtvC_OpXoqyzzCns5vneIWNWC-_ZXVbCUr0bufUzfKRf6xczxVqdqUVEHkW984sCLL1iS2BBlNGVT35HMKq5bBzjyCcRdzy",
+                    "widthPx": 3612,
+                    "heightPx": 2032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto serwis Dorian Bączkowski",
+                            "uri": "//maps.google.com/maps/contrib/113962043673136175840",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIqmkPfYp9uXcGnTqIPGV8-BcWqgpLNagax5WsAtzn_Pw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Jackowskiego 49, 60-553 Poznań, Poland",
+            "rating": 4.2,
+            "websiteUri": "http://www.pozmotpoznan.pl/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 6,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 21,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 6,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 21,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 6,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 21,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 6,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 21,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 6,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 21,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 6:00 AM – 9:00 PM",
+                    "Tuesday: 6:00 AM – 9:00 PM",
+                    "Wednesday: 6:00 AM – 9:00 PM",
+                    "Thursday: 6:00 AM – 9:00 PM",
+                    "Friday: 6:00 AM – 9:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 328,
+            "displayName": {
+                "text": "Pozmot Przeglądy Rejestracyjne Poznań, Stacja kontroli Pojazdów, Auto Serwis",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFjzPPCm7QghEA6TnQ3KZ6T1dHCeey9dHTCGDxPNQzi-dLBWbEVrrGhFkqs1ywpho1jG-5HDb1zugJlpu00S8jFBt8eH1nn7L8l_Fi6D5-MwIa2JfhDKLEpieurfGP2pjK7bJlFqR1eWMXHMcLn0Wf1N9eEAm6Qb4TB8",
+                    "widthPx": 4633,
+                    "heightPx": 2865,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pozmot Przeglądy Rejestracyjne Poznań, Stacja kontroli Pojazdów, Auto Serwis",
+                            "uri": "//maps.google.com/maps/contrib/105061839027619504051",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUK5gvotTAEGg_vON55ry6DEY5WboR5aD6Fbz86rU_9Uus=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFi6-GBG3OyALrgeSZgbh1T_TNWYedV9NdHtaICQar7dI4zd6baFrS0XIllRVqPd6gfjXYxItoe37AIMN7N2MRR8gothjcczJ9xTytxqd6Bti-LLz8bM4yRe2s9HIsmXynxvSDBsuHEjvEVoRS_iQYvtFkV5YwtPFbMX",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Cezary Rzepka",
+                            "uri": "//maps.google.com/maps/contrib/115464520645151066902",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXoPrhCvrPKgCP8hcI04JjOtd8dgJ6dnz4A2ciO50xyrt8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFhk6SYwmC9_36PonmS_2opWrnCqKu7_jKwyy-eb9QRnJPm-Yz5UEcPfk3tvVGOziREGgF0JxK6eQjLbNEUbI1EiMgp30hmggVbCeDq0wNqSMYLFPOiB2TwDYkFDimp3u932m3dgR4lyqpctKTlqsiK9Xz9uiVU-D-2J",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Cezary Rzepka",
+                            "uri": "//maps.google.com/maps/contrib/115464520645151066902",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXoPrhCvrPKgCP8hcI04JjOtd8dgJ6dnz4A2ciO50xyrt8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFg4_DKGP7X2Kicak1jTV60D-JCBL9Io-UuIZ_DUlgvXDNSviEr7yXBNSjWNs-M32LX-92sg5EXrIQYLN-h-JwOLS4DBewrWlMQcJu_qfvN0stb8juv4vKSH0Rt07GNtPjrSYynUaEdiUMvJp7o8rEBsntNE_jEPYBiE",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Cezary Rzepka",
+                            "uri": "//maps.google.com/maps/contrib/115464520645151066902",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXoPrhCvrPKgCP8hcI04JjOtd8dgJ6dnz4A2ciO50xyrt8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFhqdX2o9KSZ7GqHKPqDv1XH_kh3Y-rsTDrQ5LCv0TzrqH9eVIH8wuKkYKtU926qXiV8vDQgO8kjBzrAOWTL-TbcpjbYVi5beALK_AH_gquc_J4WuOfKEjMmwbVYGjpWupt75I6VoaBd7svtmn8ON20Qkqk9dZit3OaD",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Tomasz 1234",
+                            "uri": "//maps.google.com/maps/contrib/105987419240269676110",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUCinCjL7r1AG5xsF8ayV43PZE7QJ2nHg7yxc7asO8hng=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFjTt-W1eVEMMaKU8U5AgfBRioKGqoJsVl91pzrfo656yW6xLG5YRoQTE94IRw14YX1K9-Yy7tLzU3-CIytv-l_Qt9eCVPWu9mLbVCEZtw8mayUTtej7Xwgl8pZ4HIn8asENYvMyw2gVniW_sndJWLjlqFy-Fr1Nyo9G",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Cezary Rzepka",
+                            "uri": "//maps.google.com/maps/contrib/115464520645151066902",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXoPrhCvrPKgCP8hcI04JjOtd8dgJ6dnz4A2ciO50xyrt8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFicA6yw-XFdVHQpY9Lroih6rvho6V2ZsqgSAfFW2xjuDt3t5Enl72_eqRU-LmOQVp1rIcP2V7G2TmmRA9gQp9wuWE0e_QjBYGyYmSAfou9nznRvAuqmDVIafzT3WQGzquF_okRJCce6agLwSPDLaA98p4SPIwrut-mK",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Tomasz 1234",
+                            "uri": "//maps.google.com/maps/contrib/105987419240269676110",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUCinCjL7r1AG5xsF8ayV43PZE7QJ2nHg7yxc7asO8hng=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFhm6OsxESkD25RqEunae4bIhXMVy5ACKaJD15mPHVhjletRqTyEhr6JhS6zStG4buo8HFVWbrjVw6E3chsDwmCfsIjBgCTrCiybYmbyHSO-gyPRGU-1ySC6A4mL9TkgOU7tNiZVWej77kIOGGitFdRsydxP3rAF-qfa",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Cezary Rzepka",
+                            "uri": "//maps.google.com/maps/contrib/115464520645151066902",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXoPrhCvrPKgCP8hcI04JjOtd8dgJ6dnz4A2ciO50xyrt8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFijBpl2To5R6Bok_WGpNatzM35bHHF5_YlM62D0XJQpNauNm7U7rc23zJpLIjUmE9waEcwpFsZaYUATTtbunE37FeiO3gHrp3453Uk-xQuJImwNDQlAwIP21_ZRKwSH16va1IG3ST4aETn4jrB23lU3FG8C5utpeyT3",
+                    "widthPx": 5312,
+                    "heightPx": 2988,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Paweł Maślak",
+                            "uri": "//maps.google.com/maps/contrib/104493404719861424765",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIDtg3rwO1a3MAocO3RJewIJDDhbfWLjXvoNE2d0glH=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ98TgJMZEBEcR7xtl2du5BO4/photos/AWU5eFjeVVV_83w8EPIfHsVAKeZ2_eLj0F0dzQPkf6nQEOa_jrLaIYyl71T53fSm5z4aycSkmv0-vuOpQnmheu7y5mVDXYAgyj9Xmu3nSG85wVZuEzwcsI70p6d7_mXmvSUIhZsDJOBToQ0N9hfIHAnDwIfvTBc_iGIlitIv",
+                    "widthPx": 3264,
+                    "heightPx": 1836,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Krzysztof Żak",
+                            "uri": "//maps.google.com/maps/contrib/106190836458975471363",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKnEe0_4YPsGMR0N8-A8B_EJB5v0FCP92fPrgJO_bhT=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Osiedle Wichrowe Wzgórze 10A, 61-674 Poznań, Poland",
+            "rating": 4.3,
+            "websiteUri": "http://acb24.pl/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 6:00 PM",
+                    "Tuesday: 8:00 AM – 6:00 PM",
+                    "Wednesday: 8:00 AM – 6:00 PM",
+                    "Thursday: 8:00 AM – 6:00 PM",
+                    "Friday: 8:00 AM – 6:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 346,
+            "displayName": {
+                "text": "Auto Centrum Baranowski",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFgz0Y1kSRHvzQj7Zy75IqM8VfwN42BiuwK4oMQH2bu6dYg4FjVOb6Efi-M00_TfojXbBaQfFlnoMmq_N8FbtznGHXFhhry3KZYEU4weJHaDkjVk5cgTgRt-j-N740IqYgttrT6n05ESxwfdG7Exv463919P6DBG13jo",
+                    "widthPx": 4724,
+                    "heightPx": 3149,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFjWYxVjoz3bsFITIprwSZNSbI5lUcXQe67MqatppV6wNl9gJpIZ8DU0JLHOqM7E-bqA3y2lCvsvrloCZPUY__6Z7adp2ewy3PhioPYYIfHygj5KK5avNG5bz-A_QSh8ZIl5XSSz5bxXM3ct6oGhPMt50Sx9DrWdYouC",
+                    "widthPx": 3414,
+                    "heightPx": 2276,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFh11Pvl5tg6sKNnDpkBpNLsc2D482uobbEqxW90iCfp3p1-_qSXbxWJRzds8DAkRZrb3sUJPQAyEXp5Ll405BN7zGIz6_-kMESEojDE6Vved2dvZNwPbKkh0oL7rirzs-CmlEIVYiTH-2FBvgVaOo6IvCD5plynJ-X7",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Dawid Zaroda",
+                            "uri": "//maps.google.com/maps/contrib/111565265904027602623",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVZ2NhgCGZMxtMMurJIo8JZ0_M26OI24lVgpfFOikmdshJR=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFiYaiYt6auyENqfT5m-CkAwgw2xEGKya5c5asTxM9UUghhFKXvsX_NYR7hD8H2RYeGvrQ8WUbK-vEhLDeFL0EaIt2ddEU37MJnKYGqas-XjP1cJcCvx0OXWaWBWTJVrt3qS07ZuASbg7mXvvBnLLuC_mdGwDlbW1x4X",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Dawid Zaroda",
+                            "uri": "//maps.google.com/maps/contrib/111565265904027602623",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVZ2NhgCGZMxtMMurJIo8JZ0_M26OI24lVgpfFOikmdshJR=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFiMNPP3dw06BAUpP5neAoNOXQQPh8MI97IfQQfqxf7t-6sKSVRDVEMVsGF7xoc4PmaHS3ad1t2yjtx56eGNFu8uy-WlIeAPuL5C6rZNeIfXH_TYyzHoLxfB1OruxLkw6HWWSSuq2Z4DoAT2tW_3-mHMRodTDZrdIXqc",
+                    "widthPx": 917,
+                    "heightPx": 1920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "konzi",
+                            "uri": "//maps.google.com/maps/contrib/114515502942775957916",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXgRisx6_YzrESry1a25rPhweAxLcqiYlXLZYM5_im7qns=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFgud1hCO4UGChhdhFtQmb5XVsSmE3DEZp4y3Oe3S9BLW7abo4wGWathHnzpuQUVkSrUcSGx6zZTk-DG1X5hJ7T6lBD1Nk-uRsuI3ygTR6F7r4yvJzH_KvDmwH1fiQTPCD_ztrlnhS5EAQuK_9IeopbL0jxpm8HjmZjQ",
+                    "widthPx": 1536,
+                    "heightPx": 2048,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Damian Sławiński",
+                            "uri": "//maps.google.com/maps/contrib/101139999757671722154",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVx6uwF_d-YLJ3m1iSxEoAOXZuR-Xyd_1pD9RGSpSPYhqA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFhXWFDwafHFqUM6qrR8RoJtdKu6AH8R3_i3vWOoi18a62XyG44PTpEDunjRBE6uoA8jNooLm_UG92DHAjbY8nhlxufZDQWhQ7y-l0PoJuN7Cxrtxu-qsoWOFLAi_WCvJmmEnJOLPHCbWmWgx8FBPMYpBD1oaZlSujgF",
+                    "widthPx": 4083,
+                    "heightPx": 2722,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFjstUTaRyVLdgJPVb2A6mvzN6QlGGpJEmwEapedg1hLeY05NNi7jinT-xBybnKfNzmr8Kja9qQSTx2ZPvsHeFPFt2Dnf0nonbzUJt2dwiuIJYSz9tHiubd37yseAV9y_iv-9VROQaeRjmdfCSxRw_IfDFu8grQvvOFj",
+                    "widthPx": 4724,
+                    "heightPx": 3149,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFjGFFDlZv4u52Mghhp9tRPrxgezNpSA_xqZXNAclwdFw2EUMDnRrCopuIMQHvjqxLpO5GZ2uSXY_LECsU0eMyLfugWj1z3SzkLrd-xbmwHwkEJRVn99FU__3-WOtb_jrM1mYzHbwddjFRhXb4AXkhvZyXlJsIluaxGq",
+                    "widthPx": 4724,
+                    "heightPx": 4724,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ68v-FL5dBEcRwpv7UK4xzeA/photos/AWU5eFistl0ZIrtiCFDpEFnkDAMSjLINoicdTCzZvJFSp9tkGjGiDDDeqOsDDMgJfzMgzB6fHpgT0TsRC03Z0XEwQsCG0csNwezCxmeeX3yvuVFvKhYVax5wgyj69Qdx6mOeGG1NKjqmrdjC5whmHxtHmze4Mbm_Cv8IE5oJ",
+                    "widthPx": 4083,
+                    "heightPx": 4083,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat Samochodowy - Serwis, Mechanik - Poznań ACB24.pl",
+                            "uri": "//maps.google.com/maps/contrib/102688330799036295660",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW6gtaLRaMWmsDvPAw9SaMoLJa87in2T4KLztENfOf0WiQ=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Ptasia 24, 60-319 Poznań, Poland",
+            "rating": 4.8,
+            "websiteUri": "http://mbacarservice.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 162,
+            "displayName": {
+                "text": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFgp5EM_p-khDEiIfnIzC4OpnqYMdXUVuw1iHEDqhLdOjWnMYxSUSE5cYhgaOcLk2S_J8WJsIY7B7PDBWY9vABb_KaVUH4hPqefTsj9u9rhlsttyAuUlYlzMljUFQ98GkZEEybgumcj4f3KZpwjAfMrUtZrDPzhEmwdM",
+                    "widthPx": 4608,
+                    "heightPx": 3456,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFj_ycb4FC6NWywZRadrkjw6MP5CmTHTpOBa7egFy81-jNseOq6L12DNsBobGyZaH_SDzic0tSpa6Xo4002Ysu48F-DG_s0FJbBjVHLS2HKvuU1ULntMq--_bbJFmRY9ePqv0c6aUHiISAWBcWXzLxhV73tWSTBW-9WM",
+                    "widthPx": 1000,
+                    "heightPx": 662,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFiQEoyoCqOnUkchzuIXleWdBilSQ-fQelSdUJo1CEZE_TbHaz544YNbY2R3b1n6jEWZZDnFuH0uupFMzTc0t8DT-d1DDQPhNUiJKQZOcPHH3_J6UkQYIXBaJu4aG8FsJN5FxV5BGtElpj7o_7YhfVRMdJF2nlxqqwvf",
+                    "widthPx": 650,
+                    "heightPx": 433,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFjZYprbYrx9HFq0YJo9uG26X2xMk1B2ge85Rn02oAfx3NLjsxURwzF1sDvLM5JCXSGuMam7sTXH_2Y8PmDhgpcs3Fi1NB-w4PJtzQh032aAD4DtMAMD5cvhtwTylSVFAPGYOhT5qOSz-VmmTt8OEAzrjMxuCkQR9uUm",
+                    "widthPx": 800,
+                    "heightPx": 450,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFgMwbXuhw1N3Owvk6JCTZNoMOb-QNpzrv0Xh1LhE4oGY7UhW77YDHKvpVCVSXIrvPNw-_maldk8Yb9oiNHD-bmpQPeW0bcLJcvHMSOIheeQHh57SLlQvB2UqcFDbEk6r-SQYLnWNI2sxUyzE6wqECydlO-1Qiacl4dR",
+                    "widthPx": 4128,
+                    "heightPx": 3096,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFgJKK7K9FmZFAWOTOlNxZAshWYZ_AzmrZMuyvGzJZHw4iZ_CploVzrkweZauWoVDZNeb_fvHmTl3XEUwWNItmGbt3Ne7iqi7GOQsuRTNtZVZhxFGx9rC6aLOm6jObTSJfPYdMp21MZWnL2iRrq6fMQrQhwmfanWxOm2",
+                    "widthPx": 842,
+                    "heightPx": 631,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFiBX-IfsxE-vYMgp5bTd4CndbGQyGj_47Hq45d4MdqMcRr0A0jGzJiUNoisV648ejfK9l0pRHNEmAbCRwaJCICKvVDYsxI3CzBBJcZINiOOo0VekuyZEJ5zfWEg0HVymGDPVARpAWFgczl_eNrn68YGmf5bQQZPlSf9",
+                    "widthPx": 3096,
+                    "heightPx": 4128,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFiiG3Cy0f8q4z6_8Cmmx7fAV28hkucZewwCsjCbJewOVqYa-iqcbZYU5djmUbYQHxHk8KNJSMirPa3GrVi2YMOCiYa1c9vTne7wqLyDHuFarwzfwxwtvNexLKZfoxNEqdNz9RMGbI8dqXZdjT46HfPLdbVDYjb8TxMO",
+                    "widthPx": 720,
+                    "heightPx": 960,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFivqzYWoRTe59lFAGdY9q1ztCqKp70B8spi1SYn8iABTJJy5knSQnHHPcOgrJ3uQMNjhcdqk7NGmP0idJrbx67quBowErBSjDA8SYFl7GsTDiOZZPsovqZUGoMVVcTxX6E7zZzYvzDkN_c9qDN1Yb5LqpjmMPhJ4EOs",
+                    "widthPx": 3456,
+                    "heightPx": 4608,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJxyfENVBFBEcR3af2fuCQK0Y/photos/AWU5eFhpvUElfdTgjCkhYHqGEcEjPGQAxSUnjAmRLwaSHa6xSv5-wdKys5HjEZM6WrXR-CF9hWtgmf875mih0c-j0gUA0_n1yYDQ7p-r9X3kU_gbGsLEUf6dMJxoRqJDwCkjD3RB4Tt5-jTSXu9HNVrCOnfTjhpdlzKSXusw",
+                    "widthPx": 4608,
+                    "heightPx": 3456,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Warsztat mechanik samochodowy Poznań - auto serwis naprawa - MBA Car Service - mechanika pojazdowa - serwis samochodowy",
+                            "uri": "//maps.google.com/maps/contrib/109756419250841310242",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXAXtmV3jriUJOhubo0fcM_5DHFswQ-KWspYZQmKRWoPw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Tułodzieckiej 26, 60-465 Poznań, Poland",
+            "rating": 4.2,
+            "websiteUri": "http://www.fxservice.pl/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 10,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 9:00 AM – 6:00 PM",
+                    "Tuesday: 9:00 AM – 6:00 PM",
+                    "Wednesday: 9:00 AM – 6:00 PM",
+                    "Thursday: 9:00 AM – 6:00 PM",
+                    "Friday: 9:00 AM – 6:00 PM",
+                    "Saturday: 10:00 AM – 2:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 70,
+            "displayName": {
+                "text": "Auto FX Service",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJ_bOEim1DBEcRcTOBUX6hO7o/photos/AWU5eFgPNpLI0aC49ZdI118BTdcZuPpVvFFZDv-klYAzo4UqUM3VyvQEutVCPfZ9G-dhS3Yk367xPx09LiTmOPK1v4SvsJH2LJoaKGIWJCsKhzbwIIlE4tXPkgHasvEj2_39AHvyOapYHpHuNRehrGrQMifEPb3h4SYeVfI2",
+                    "widthPx": 4160,
+                    "heightPx": 3120,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Maciej Szczepaniak",
+                            "uri": "//maps.google.com/maps/contrib/109695293499833281168",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJsOgy4YeilSIGjBokx8aNzpdKhkOd7GpMriPKzAWSD=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "auto_parts_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Kosynierska 11, 60-241 Poznań, Poland",
+            "rating": 4.8,
+            "websiteUri": "http://www.ccs.info.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 9:00 AM – 5:00 PM",
+                    "Tuesday: 9:00 AM – 5:00 PM",
+                    "Wednesday: 9:00 AM – 5:00 PM",
+                    "Thursday: 9:00 AM – 5:00 PM",
+                    "Friday: 9:00 AM – 5:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 107,
+            "displayName": {
+                "text": "CCS Car Service Complex",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJfcVpICxFBEcRoonTX_DB91k/photos/AWU5eFgpxKQuWcAI_Fe6Cc2FALKtb-jFmsOUDYzy4sumym7BQbT771qGQZDPPEvZDQV7ui3sT37zb-hR4deV3ZWhSgbzcyT5c_F4mDe-QvHXpth7GGD-LI6F3etwoXf8-acsQoda6k2xxomXf_XqwG5xCiq1aXy-6M8nU4Ff",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Rafał Rudol",
+                            "uri": "//maps.google.com/maps/contrib/100140907358749705960",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVE2ge1bsESxjOXIogXFtpt8ZM-j_yv8_hBH4m-25cASIo7=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Pniewskiego 21, 60-692 Poznań, Poland",
+            "rating": 4.8,
+            "websiteUri": "https://naprawa-samochodow-poznan.business.site/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 9:00 AM – 5:00 PM",
+                    "Tuesday: 9:00 AM – 5:00 PM",
+                    "Wednesday: 9:00 AM – 5:00 PM",
+                    "Thursday: 9:00 AM – 5:00 PM",
+                    "Friday: 9:00 AM – 5:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 50,
+            "displayName": {
+                "text": "Naprawa Samochodów Poznań",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFioeq__ebp3LLczQlJtYNlvmTXlV4RON_qK2kMthiC332EZZpsPivGVmzIipMD3gFdevOWR-xblmbZzlYih-VW-MN2mwKPGA8nKn5UNsaJoTfCpQSqdzXqulRg-doTU-8PCJZWVxko2YLsFGXH27CsVg5rzGDiOUsyL",
+                    "widthPx": 2048,
+                    "heightPx": 1152,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFgDw_vEIswWnecYWsZ5lJ6VNMTnCWGsDLD-pDl9Z6JUVdtibE9LjewD3RxnvE5IxACc67s8MwaNBHB_i9dAb9NWVeSisG5nBpi8eNhg8IHVq1P1-gCEQeF6ASwMlF2iYSDRPkr-f37Cd_LHJp0mdLH4biYOpTcaVyyE",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFjnEQ9cTdM1oKg2ufkW_JKyRfLY2i1SLfQ6PAc_xo45y1YeRH9t9aY0dFlgHCiJK7EDXNZ641A3IqddQS8KeRTuvo4DXHKblc7NcFzxVM-vmNOzh_tvV0ezgoM5dsyXjryhjX49AiU4OxWoR7XTtbcJFJz-nNwaGMhM",
+                    "widthPx": 4640,
+                    "heightPx": 3480,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcin Wąchalski",
+                            "uri": "//maps.google.com/maps/contrib/111826976058489154012",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXaWrg8UJembYUmCGq0EeH-Wogk8yhp8qgjmRhvkehdFmI=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFiryf9tp_zbUrtoI1yKI3FfxLvzb32kRESIfiCM-Fz7CH3N-b6vno5C_IRv7jA_vwNAA5CaN0762HWkDaPzvR3-POrAsyOstAiiMapaXwufH41Qs11Z2L7cWVuQ0px2k10cqbXnmj16jzfyFn2B8xwavkEz3QXnzyGK",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFhsX7EJ-nycplq0gEI6Ca4zAr0msdeh2WYJ9aUlcx6Xg3XhdJuiagTSZlA5uhT4wBRtgedmCViA62Ig0YPp2bhxPLEAxsVPNPAScRmqRwH3jEE8AcPtyzmgFbkdda63cotqAyFMmDS9rm-DcBMvUxU7pqw-P8ZT8RxU",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFiUEfMy8D4TGbiuBJVAsmVDjz5PT8tuv1rv-7olb5UymfdHXyviVmLL2yAjMvQLC1zCTga1FGBqME5xMSJceLYChag3PB-HcncrlRp3XlvLdAPBot9CLWmU_KWDx22DtRcVjFvkDLbblEMoRmJqJV_b5l34k0uzQkIB",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Grzegorz Tokarz",
+                            "uri": "//maps.google.com/maps/contrib/101137014385539664475",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWM27SneCr0nGJVLzeSpPiTYTTUwOrXyVwRC94bEFNFVILC=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFgWJWvQ_qZkiFY2SC2_xgypNw-0nxquIfvLhTO1AMjNdKI-ZVJU3afjR1ocpibSqXLl4Dqt64X0M1RoNEpUl0HPcPqGyGP-Ip-U_pqaLonzMBChAXMcYBjnerNDiYhVMDXKIl1_sWF6ef_bgOH0hXXHXKQAUSSHoVco",
+                    "widthPx": 4640,
+                    "heightPx": 3480,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marcin Wąchalski",
+                            "uri": "//maps.google.com/maps/contrib/111826976058489154012",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXaWrg8UJembYUmCGq0EeH-Wogk8yhp8qgjmRhvkehdFmI=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFjCaEtBECK_TYFwySHo24e6juomJYUbS0xqtSgPGJq2W-YNVnOvLxtLC1m0TB3S_-JY8PmEU7lV2hr4e22t3UfIFHwjQR9PTbjsLQFkfXOASJt1AznzESckpBK3FULSMORibOypy10rE7w77iT1DUYt5td9rIKGRBb3",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFgNw6fFaC8GgKnlflk4EPLlOT4avH_0g_6H88ZjiOJloiLt6hEj5428Sa8IokUWQvzFnwfBtW4bDMq7wELVFDpEwpnt0AAfjkSLFHt3UtHiL3Pd9hBW7ScOUIQlVJ1jhdiQ3xmUYOn7gUCKSgsEW8rEKZujOH4tU_E3",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJM_JCnEFDBEcRA2YN73LMZRA/photos/AWU5eFiPXHjna-Ue5IIZbyJe-7uQd0g6FQZzqyubQiEsss0EbLa-0LQOxOF0asK3R13SsQBaUO1gIzHa40dlvbjsRt7HxvEKW4uU0O5AKaS4hVsuVys90-OGWpGQLe1v9YbEulr1QaIDqyUgwgPq_5LTDmKV8yu-E4VcRmIY",
+                    "widthPx": 4608,
+                    "heightPx": 2592,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Naprawa Samochodów Poznań",
+                            "uri": "//maps.google.com/maps/contrib/102120683898403644449",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXNV8thAUWv4mLvWhn6X2hUuCncz117JnTmMRQ0rW3obA=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Warszawska 39/41 wjazd od ulicy Bnińskiej, 61-128 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "http://www.lpmauto.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 143,
+            "displayName": {
+                "text": "Auto mechanic - Auto LPM",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFjKiK3vujIgQcCOxFU_qzjtnblKtAcUsD0K5dbVlVsqU7AlRdHZbU-VVelGHeR4DG9eoaJfWtK-GnLbf6xwZFu664eM_0hoT4bm7d4Mvhk9QIqPupGy9j8FGBC7rw9qXqPniw2bvB-niuPUs5InoN8cOKVlaOFoM0lX",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Daria Dziwisz",
+                            "uri": "//maps.google.com/maps/contrib/105403516287845407841",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX38rf6LEtB4y2Ur5fOoRDJk_jwH8yprObrSG8q2xqjaT8=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFjzTNCZoS5LQe-P2_Ipu6BAq_x8x5hpCbRNkbeWz4pAuuR3ZBLyTWkr9pvgI7haygHTbvrMwaSgSIOnE5M5ocOdB8vQxK_48seM2vk4jHdk1GDOGFF4vIpYQpj9VPMd9dIqZMT_OR8hwHcZr1TtygItnLjmRwnp6Uvi",
+                    "widthPx": 2592,
+                    "heightPx": 1944,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanik samochodowy LPM AUTO",
+                            "uri": "//maps.google.com/maps/contrib/109172428440154146914",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXhE2REDktHZqm-5oHRTam7PDxRzES3J9XZp4eDb3hrUQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFgHZTu0qHkvnhJ_Ai5gE8Dvx0hbUvE6Q4VMfLPtjmBJt84MLLaWxZl64AP8omEMBrg_XiabLJNf8xEHVOFmWnMybIF_-dkH9xjUCHQam_9Z6wYrJemEj5K2Gxw_Vid03XdY3HcpjSSsjKf4nzcYkX2Q6UDppqjHQxM",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Piotr K.",
+                            "uri": "//maps.google.com/maps/contrib/110481951599497464678",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW2gFyjKxeBGe0AZulcndRUwvJijF8K9TrWAyy6hMi-tw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFg1prMfySfmSxIGDZBfQlfzTj7QGVD7JAdermABK_7waAm3BIsZ4BYGh2ONWP252LGb5B4KBA3Zv-KtnfRfNlro1E9OtUUgfJkIuW9kN6WE41rhOAEqGjWmeCJKBGeSwzyxJ8jAYN-lqBKD0aS4rRe1khIFM0xAbPIX",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sebastian Stępień",
+                            "uri": "//maps.google.com/maps/contrib/115494398114616317656",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIFOSBNvudh4ucG-2p0QS1I-rDtez1jK2ezkCQXp85b=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFjY2SEn7yEPRQCJuHVRxP6L1pjzbMBIRNh4DWztnkWN8k2Fg35OKa7RtWVF_BEf3ZLN3MF48S_et-A6-mJ8hoyonqs9GCfWiZoPRv1okSyuYS-QFYAc1vDtlbRCFhJOkZeBNQ0ef7HyGsYPIxqO2dNpKR2A5ipt0egD",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Leszek Patan",
+                            "uri": "//maps.google.com/maps/contrib/115401672975810126137",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocId5QWEkr1cQjKG4qdqTOkXTl2ZRTTWiweJqkAGb3Sk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFigu-G-sk6n4OFe7tL_FPtLa3ATpNKKXkD_zbfUyLO8POcHHRpCYyNJu9vUL1pa1YSZL4XP-PkHDkgY4YAAiYIk6BrnujwP52M4pgurqqjeLOQItqSczgszm1TQYAq72l45DS8TOeO-IfoY-yWylIZtZ8P0J8ohyEMV",
+                    "widthPx": 835,
+                    "heightPx": 557,
+                    "authorAttributions": [
+                        {
+                            "displayName": "dzialobslugikont12 dzialobslugikont12",
+                            "uri": "//maps.google.com/maps/contrib/102116451918299046383",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVb7F1-6LZaw_n1Lq4c39Uqq9oP4_V8q1VVndiqWY0ykhE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFg6Nn2zU1GpADysBtzFGLmFchFYQkGGjk42GYnsPUyfFurultV0oE5xr5wozFst9evBBqLfG8dtMjiDzkIT0_TKP-AD9X6HaIdzz_rkUSB6Ne6ktag72A5FacfLiMh5G2o6eVIN12Vj74WUuI9LHgXlM9T5F6ZxP8cS",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sebastian Stępień",
+                            "uri": "//maps.google.com/maps/contrib/115494398114616317656",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIFOSBNvudh4ucG-2p0QS1I-rDtez1jK2ezkCQXp85b=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFic9YWmjcn5ivIDyCZQ0prDJb8K8sPfoPePlbmwpTyPwfRSAL3BE10pbbIXABXxqdKkGkFnVaC33qzUeZCe-544eXOZEt93x-Yc0L8fOK_jezqIfSTngUgvox_-ITck28ZjOd_cNw1M8y-wtVN3h2AHpllcm7T73SWR",
+                    "widthPx": 1920,
+                    "heightPx": 800,
+                    "authorAttributions": [
+                        {
+                            "displayName": "dzialobslugikont12 dzialobslugikont12",
+                            "uri": "//maps.google.com/maps/contrib/102116451918299046383",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVb7F1-6LZaw_n1Lq4c39Uqq9oP4_V8q1VVndiqWY0ykhE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFhcIFu_99zAOuVIWAXgWS07d5lFaeq4fiotKdnrI3t9FngLoP4d0CahavYSdC8bjkrj4f8MfKTfdKRUuAVdrgTHve5MM3NTkkoZafwevMfktI7Xc-V74ancsHyhHEv_Li9f8Nk0qBDZG4le_CFbGAbMHinR9hoxYToH",
+                    "widthPx": 5967,
+                    "heightPx": 4307,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanik samochodowy LPM AUTO",
+                            "uri": "//maps.google.com/maps/contrib/109172428440154146914",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXhE2REDktHZqm-5oHRTam7PDxRzES3J9XZp4eDb3hrUQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJe7_IWnFbBEcRnGcUqYZfUFE/photos/AWU5eFj6EzV4tBJZ25pa5TUn3OA3djVsachi3sWLCMGH98xDt8zN7O-FFuVt8HjR2lh17Zjd6eQ5qWjfjWMEgvqbK9XAs3x4CsHc9h0qhER11Kl95d7edpbpVimWml_rxAdaCSBEXp1n4KYdW0D9O2U5mR4eneuSpvL4HuDB",
+                    "widthPx": 1600,
+                    "heightPx": 900,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanik samochodowy LPM AUTO",
+                            "uri": "//maps.google.com/maps/contrib/109172428440154146914",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXhE2REDktHZqm-5oHRTam7PDxRzES3J9XZp4eDb3hrUQ=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "storage",
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Jugosłowiańska 56, 60-149 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "https://jugoslowianska.pl/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 8:00 PM",
+                    "Tuesday: 8:00 AM – 8:00 PM",
+                    "Wednesday: 8:00 AM – 8:00 PM",
+                    "Thursday: 8:00 AM – 8:00 PM",
+                    "Friday: 8:00 AM – 8:00 PM",
+                    "Saturday: 8:00 AM – 6:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 263,
+            "displayName": {
+                "text": "Autoserwis Jugosłowiańska",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFjQD1NYOYmP_vbR4xu4s9NZGAfWP1iGYpcHWxPXGZt2n2GNx1YmeV0vUQCaBPdk8PzJSuTMIcM6oU-VSn00lrFzG3GlcpdLkqVcpfyKiN_toi7xEOhMkg2E2P5uZWqpT7_8JW6mWIpdI5X5uX9o0wsebHE43k5jjNoJ",
+                    "widthPx": 5464,
+                    "heightPx": 3074,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFgBvnr_fdIqfTg60XF_LJU5HvFXD8EtBV5gcH7KcHQK6OhbAgSYIlGuKyjDb5foho2wpFuWtN-Gnlt214frDmi4dOp7ZxTlh2OAJvjMwIArdwse0ySim3CiPWUapoAySJWSlfqAhj_QxpbPzTiErKyPP-vy5BhBJbNC",
+                    "widthPx": 640,
+                    "heightPx": 480,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFhDdNpS--TPCg08o9Zj6vibyD9pW1RrQYfuh1T_Scg7_k1UupjuO5hlxZW_tNX0y9XDLh0gW_GjR7ol-wNAhvVcYUOG3z0jbDkrwPCXcMLcdosXcNRYfUhe-y_FfMS6_pZshP4aG3mSysKYMwYfBxu_XlwPVlGcmTm3",
+                    "widthPx": 4624,
+                    "heightPx": 2600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Jarosław Jackowiak",
+                            "uri": "//maps.google.com/maps/contrib/103848767730807262623",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVF_QyZBkzpgmgVm81nour14tZrLPsz6JcXTIIRd3YXRls=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFgjNvxC6OzIpZ634sOk9VWGO-HQvqC-aFO5A16n2p1DaOLJCr9EAf2XKaM8nXp8_SUhdn-UQCjMr5mTYzpdRIlFlj3shd2FQgRN94El7vpWTiljN-In7WKtTtpHleZ9GsllIVIn6MFLqqYJwOvVqXm6GnrbHRILWLxd",
+                    "widthPx": 1728,
+                    "heightPx": 2304,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFiLSKsG3Moky2CnmjhzShoa5tKp_qau6RdxbBK61dj_RjJ6jYTHsvOM8gVXI-R-cITiEol64vfGMZYW51I_ijO5P1CN-6omFHGR4PNznDPLuJQKrNwHNQUpNIZDXPIHTQe1wN1NOTUWG6IV1aAqF13_tVZigXwKLBV2",
+                    "widthPx": 480,
+                    "heightPx": 640,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFh1rhkj1r1MY-FT4lFCgBUQiGh_3zNJF0lGKedH4iku5L-YqZORxLZYfieOYMnfe1zJIroLzhQNt2YtTSlSTUDF-xCcwJEJ8uZ0KcPYvk6Tnr9GCIk4pfbI25B70hTy7kFuF369UCw2Zctv9Occ5wEc5VJC1uJV3wqM",
+                    "widthPx": 1536,
+                    "heightPx": 2048,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Grzegorz Leśniewicz",
+                            "uri": "//maps.google.com/maps/contrib/105214607122481308029",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWWdX62k3EMLq6wjj49hHqJ8-p5K6-XU4h2_UC-wGc8E7k=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFjvB8VDg74fJBVXtQ1CIUKJ9tjgnCgjaP5AZyWOwp6CqhzNdmGjFfdtYzUJcx5By1x3VRYA1vxsrUlcTWm2BKer3MpXUNgEupIitAl7tAlCE2leHx5lv29-udsnfLeoQpt4NmmMOrf98vByK_hFZPC99Bixcp31hsyr",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFjg63P0XEdk2wKZaub-krVQqaBWm__SS7uuBPdJ9P70EN5NCCbPkSdIjQHtp1AHyM5A6SBWSFWGrccWmCE9QUsuqO03GqXQ7yRjf55JYKJ55cvLyN69mZ-Nm2pvrjinXXp8tRskUWqkXuQQl0HPPgbtv8AJ-016jiU5",
+                    "widthPx": 2304,
+                    "heightPx": 1728,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFgwXqUj4gEkfMvYGtlXPVlMV45WY4b-woguB9HEBuu0SNYjWmRwOTWB0q4e6dqQOTHOc6jYrQBhsraAbIvv9dkBzAhbF98CWBezlZKHwFEoStL9ps3a-2VmB9vXWOYiHk3CcOAfJE15mi6Gj0Eq4kIcY-Ow1CTF7qxV",
+                    "widthPx": 5464,
+                    "heightPx": 3074,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJadkdecxFBEcRCX_NMaUyNXc/photos/AWU5eFh22QV8k1KiN47_PtItdwEEA4RTMpVgC-GvW_6-6seMwN4U6YKh4cqZNq4TwpfBDTzMoENKedsJRu3l0IdhPW7J0MmoEvJLsOGx-qYIe_tcTRlZRmHduicDR7w3q2Dfi9yT8zNJZWFrBnAW48z5irFEyIM_pzIqGpBH",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Autoserwis Jugosłowiańska",
+                            "uri": "//maps.google.com/maps/contrib/100393674380580978569",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9GV4yXhNjx1AsRd3OWZC2sbpsNkCecO0UrqZZ6KwqXw=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Bułgarska 117, 60-381 Poznań, Poland",
+            "rating": 4.6,
+            "websiteUri": "http://facebook.com/autobury",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 9,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 9:00 AM – 4:00 PM",
+                    "Tuesday: 9:00 AM – 4:00 PM",
+                    "Wednesday: 9:00 AM – 4:00 PM",
+                    "Thursday: 9:00 AM – 4:00 PM",
+                    "Friday: 9:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 118,
+            "displayName": {
+                "text": "Auto-Usługi Maciej Bury",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFh3-LoGpVJfYH_rjdctzvD5aOfcipsJM28CK9O36YrxsDuLT2eZSSe-SwPj5rtt5cK6US_rfTI3P7elyIwJrdacMjnI7_2rLMfr62oi9llwokzBikHt6HUhL0G6V5HtGDkU4G_2EEESVS59wR3XMxat6BytBmtZK2dE",
+                    "widthPx": 960,
+                    "heightPx": 720,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto-Usługi Maciej Bury",
+                            "uri": "//maps.google.com/maps/contrib/101252851982490983866",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOlCM1FkoErat-NNcWDVC15d9NPvwlSHQeBvyAp4erI80=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFg5RpeD6dz-XNk-PhjVcCuL3Rbm3rsDjkgFq0kRKsCVNArW72JSyB5N-vXqyxZWaWaylADIRIYY1ramJGFmXlSet1AZQ5iKvJ58lwGxvvUV8sXl27X-scguTsQ88rF-yoTNUb5kwTEZzztmVKUxAboIosiE0iAOkWwL",
+                    "widthPx": 960,
+                    "heightPx": 720,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto-Usługi Maciej Bury",
+                            "uri": "//maps.google.com/maps/contrib/101252851982490983866",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOlCM1FkoErat-NNcWDVC15d9NPvwlSHQeBvyAp4erI80=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFj9rWos4t3L8-L9332Wks6Pg6v-VaTpve0bO5eZ6qcMtNL2VbqHZ9dEW-TF9hNC8UuAvXjitSyw-sTG5nmeMEXDQ8A4AIs7VP2q7qBr4wBhlZf5lFiLqfMQ0gyHwWT-SqLpbTecxAaUI9CFQU42qgPVWXp3J8x954mp",
+                    "widthPx": 3264,
+                    "heightPx": 2448,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto-Usługi Maciej Bury",
+                            "uri": "//maps.google.com/maps/contrib/101252851982490983866",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOlCM1FkoErat-NNcWDVC15d9NPvwlSHQeBvyAp4erI80=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFit1_nyyhJCZGy35VctIrMVxaKgvb9YRkUTy1qkVyP7YAu5L4CmyoQXSa6VR_jwXZqwteEA7Zv0jafKiR5HReFa-Em6z7Qp6sU1ixM3owS8ldXg4bZ9KfN2i9A1qvcc06WXstYjQw8Nzd4Fv0b-oR_RTYLquSSa2cRu",
+                    "widthPx": 2184,
+                    "heightPx": 4608,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Piotr (Pemal)",
+                            "uri": "//maps.google.com/maps/contrib/116133097213339873023",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJBCBQ4caGtHX7fpUnmR7GjuNgzRzoCygn94ALyjXhk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFhDhDFcpr52vbzwMnkkdMj1EAbywpEgfrkAsyiZfiRXBK2WzJu2D2XHmcPGkzKqrIaq4pgEXMTWDm681e-Z2Al1lsLiTDGAtI7MeZYoB_KEb6tUIBvta2JhhGVTXYex9nU76HG-7glFRPTd1dZ64-9y7qhj8s2rg2w1",
+                    "widthPx": 2184,
+                    "heightPx": 4608,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Piotr (Pemal)",
+                            "uri": "//maps.google.com/maps/contrib/116133097213339873023",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJBCBQ4caGtHX7fpUnmR7GjuNgzRzoCygn94ALyjXhk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFje3CzwOeBmtV5Y9l7BHFNrOsEFxJSSdvm3Hy3-9_NU8muHeDsC2Hs8cNSuLK3CSZTQQ0Uuvng5ajtxehXP8-E7DuhK-RnulNomzGGzxFSYtlZlAkc_qTadUgQzW6HQg6nEFW5T07YE569JvdvbLsK-0sXfTgBMc5uW",
+                    "widthPx": 2184,
+                    "heightPx": 4608,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Piotr (Pemal)",
+                            "uri": "//maps.google.com/maps/contrib/116133097213339873023",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJBCBQ4caGtHX7fpUnmR7GjuNgzRzoCygn94ALyjXhk=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFgKle7F2-RmR26AbACVBu2s98dNZhYV7pmAZt09bl5BAdF-tYTBgPJO8-nXny104pAJzagAfAQcezsvUqOVyZJM3J6AOMLCfOh7dbdGJQZg6x-pnmFWnsw_sBw9HMnPYcYId3PL6SN7eNQvaeGqXQtWjciNAqLM0XcS",
+                    "widthPx": 4160,
+                    "heightPx": 2340,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Triki z mechaniki",
+                            "uri": "//maps.google.com/maps/contrib/102263638873863498953",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWYvogNGtjPLYrMeS0aUHxwlNVzZMFPJqf3k1uzdJ4VRTw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFjngTUbVcy_xRtYUJ4gyTJsAewrNlL-ERdvup3e-xh-lAqtyXDqQg-hpAipkRoNnESBuZ_eT2MppixUh9SqxWOnd1UqaIV4Dc_dwWcrha3IXNj05OMH10_-D2zPLniBHA4kWThKkdEBkojJalXJ9cqb_ATqCuKThLhw",
+                    "widthPx": 2448,
+                    "heightPx": 3264,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto-Usługi Maciej Bury",
+                            "uri": "//maps.google.com/maps/contrib/101252851982490983866",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOlCM1FkoErat-NNcWDVC15d9NPvwlSHQeBvyAp4erI80=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFhfdI_6t1zLp36xLYC0dZF5MIYYt0VwRp5PP7Oc2UO8wpQLy7k_HOrsKIul86R_R-RhTo0CCNTedwX4qSnsuykhaYYzw_mwjBkEELAvKRu7J8Fj1C2vF5MvBwpB_XyN4EkyJ9RnG4mnz4RpaMlaGEkcMcTatTevI5Bt",
+                    "widthPx": 540,
+                    "heightPx": 540,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Auto-Usługi Maciej Bury",
+                            "uri": "//maps.google.com/maps/contrib/101252851982490983866",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOlCM1FkoErat-NNcWDVC15d9NPvwlSHQeBvyAp4erI80=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ8VtQ2u5EBEcRSw6g0onY8Gk/photos/AWU5eFheaC9I7_znPrS3JxzxMPNXvHsaMHjVGnAyZA8YH3HwqRcq2lFTlWPw0hAUcIkKlr61YdtBHJFyHh5F-OIOiTK1pk5lgUFTehAxTibW0uZVaBqHTLDzojZcIdEvbW5EDccuxkaj9ufVjmbUnXV3JYzJiHWtM6tz85w",
+                    "widthPx": 3840,
+                    "heightPx": 2160,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Jula Wld",
+                            "uri": "//maps.google.com/maps/contrib/113075163348965832925",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJ2cHtsFfYwgzku4xeSSA0ejJLXiFGMtfXwjfQfz3s=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Dziewanny 7, 61-615 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "https://mechanika-pojazdowa-witold-galus.business.site/?utm_source=gmb&utm_medium=referral",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 16,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 4:00 PM",
+                    "Tuesday: 8:00 AM – 4:00 PM",
+                    "Wednesday: 8:00 AM – 4:00 PM",
+                    "Thursday: 8:00 AM – 4:00 PM",
+                    "Friday: 8:00 AM – 4:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 18,
+            "displayName": {
+                "text": "Mechanika pojazdowa",
+                "languageCode": "pl"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFi8wmIJOJHK4LMKYGf872JustrP4_cY4O87tdEpwiLIT8Ch5DsbNa2crDThzqrZOB6I9v4i5HiWPrYrckMJdxmNj0U-prRyaJzxMBtTuP8d_MV4vGsKQT-NEX6QpKvhQYZdrTpoavNJGbVpVhz8wrAedfjk9IPBuVn0",
+                    "widthPx": 2119,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFi8OXLGLzofd5sF0C-5jf3Ncs6CP-mQsC-CSM4zYj3mio5wZWbgcjfSadk93-iRFL77vxIyIgGsx12Y5AM5-sOZ03Uj3QBw4ml2VEs1or8LBiquj3dHBVGXUPBkN8U_i_80pu-oLKNadnIj6o1LwY-udRmL1RUfdqGW",
+                    "widthPx": 540,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFjjbJoDBNAjA_EzL-1FM5QdhQznxfH2jI1__OiAO888pHtKys91zEGsQrJ9k7cxPhhYmoPINaWGlq-wwV_W2qEVWMztNFEuCrqqysw3YSt-YbGOxpF6SgfMuuQQ5stjCLloX5WHzWPYnAF-CzBPajFFcvDIDJETmJEg",
+                    "widthPx": 1079,
+                    "heightPx": 720,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFikVwn95GVv00BZm_wy1HfDGJmLUk12htzy__vLisNQ-Xq3PaijrFiltn4GNp9XvSDQxKhU8M58J-RpUFa3msw2YawijgJd6lwec2b-t-0a3lZs9kZAfqiniAfbNlDhsRJ9NDGXuAEoz6FZ3ku6Tx1OuhhpZhU-KkNR",
+                    "widthPx": 526,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFiN700eFVcz_nXno8A6rgdBsEnfln9XF5Jvm0tKXbw17Pfg77AOPvo69nUt_e28I-4VR2fm4OGZEw9ADS9t5SAxFOBAYPLiN1YEHQ5x3VMD7C8QLRGFH12-jtypd_LTt2WbTrpUhCsfqquZjYoy6K7HBfSl_u3llNr_",
+                    "widthPx": 540,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFi21ijHhqWxrPWvoWBK0Z-xN6jxa2zb-f-nU_9jkrKSo1dGb9L8mvgwfo3otB5JoseUsFr0UUmqUYwJWgwzx2mlJIzpSi3TgWeQe8bVbveHMn4MtTvh-69teOlMCNCvaLboeLuMJ0ZW9bbA81ZP2doplj60JLBTQxAx",
+                    "widthPx": 2121,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFgfdm3Dk4XNZzrTzihup2FyYVpsh3tppZPTIBStC2MKy_4Z2oSbRJUFLXa3wQWJ5kFv49XOSOqrvxdbwWnc3Ht_uHcXQDOdZcd_8DBvCEvfGoul5J3ZNx6w-6Dmq08uSSiGYZaAP8ifAo-hS_OLmUMqxD-3zWCDAuhc",
+                    "widthPx": 540,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFjN-uMzhfIJ4ElUpAk9GebQ8SBgme1R4FhE4jDp0Hwc-CKK9432rfRLhsWOG-PPo0AjVg7gIoYL0mZ0-fRsiuklLtUrszJVL3ZVouVGpQ5K_3u_lAoCIdd4_GEJzutLstrpd-chI4usMwJLq51ue07J7Ed-kzeYDrz-",
+                    "widthPx": 2121,
+                    "heightPx": 1414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFi1Y3IV9hmc24o9BDtF13kBLUGKOWYnZiNifztsFEKgbV4KvUoKX3uCnxmdFgIipXoR1rzr6QWoVvzH2cjW66ciBupS-XZBZ_3iLL4NTUyZ3AcToNwegosJ60Q6p2Qjsf6mncnAJBqYBUs6Ya_dMjPLpauflfaBnb0v",
+                    "widthPx": 540,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJq6lIPbhdBEcR1f3hC3nUizQ/photos/AWU5eFiExY2Kt1Rhx8HIaAVSOyUJJFwa_zctCpTCZhUPVYFOc4V87HEqsMgoFZfir1wnshA9_aV3MkZu0xibfoJ2iTLAylsBhXXnjx1F3-0LewS-mk9YA28Az4fQ6lGe6YVvDlNP_PzA1s6VGygsFwhgxiXl4eQ-4IioAReN",
+                    "widthPx": 540,
+                    "heightPx": 360,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mechanika pojazdowa",
+                            "uri": "//maps.google.com/maps/contrib/107913932237063583039",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXsPkxUyH__7ZB5BceHp7_WmNpWoRzo_MrGzRMyJBGEdoE=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Krzyżowa 18, 61-545 Poznań, Poland",
+            "rating": 4.2,
+            "websiteUri": "http://www.centrum-obslugi-samochodow.pl/",
+            "regularOpeningHours": {
+                "openNow": false,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 17,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 5:00 PM",
+                    "Tuesday: 8:00 AM – 5:00 PM",
+                    "Wednesday: 8:00 AM – 5:00 PM",
+                    "Thursday: 8:00 AM – 5:00 PM",
+                    "Friday: 8:00 AM – 5:00 PM",
+                    "Saturday: Closed",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 125,
+            "displayName": {
+                "text": "CAR SERVICE CENTER INTER-SERVICE Ltd.",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFh7E4TVUkLruGcsya_Fynpq9kIvC8GIaVDd6dqwXJO2Tl87ySkj1cBRkmeg0rHUAqzCk7n3KiHG3CVta031DbLMBSBjPpA82IJKzTFoAy5b-z52n0oOewhKFjmiMXEN156g2FlC8rVdIDryoYECdqqy5gXkGPN9sUnB",
+                    "widthPx": 4618,
+                    "heightPx": 2668,
+                    "authorAttributions": [
+                        {
+                            "displayName": "CENTRUM OBSŁUGI SAMOCHODÓW",
+                            "uri": "//maps.google.com/maps/contrib/105525139419084791360",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLaPI4-LXg2LF5982hCPVv20DMXUHLlzzycDIPeCO2I=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFhtHgLTE8wkOy5irg1rIQHHBwzw--WCRV6JGOgK5mxeM8Hhkmt5cP9v4mqKTYOfKREtm2RG0s2BgoCh0Kld_rQnu76Xh1XuTsxwVcMtliESBPbwt5zsxPcBr58NGttw2o_yXnUaOXqPrNWB5tnwfqZsc-hop_gm7LlC",
+                    "widthPx": 7360,
+                    "heightPx": 4912,
+                    "authorAttributions": [
+                        {
+                            "displayName": "CENTRUM OBSŁUGI SAMOCHODÓW",
+                            "uri": "//maps.google.com/maps/contrib/105525139419084791360",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLaPI4-LXg2LF5982hCPVv20DMXUHLlzzycDIPeCO2I=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFjMHavZr3mzD3cN7YWRkVdXX0asqWTbUE09b6r7uQLkznHJh0B5GCs0TmpsycHuBwJ94BXASWALNnkqV0gVC9VEtMmBKnvJPIVxhMi-M2ShC0ZJPCv5AxvgRJF6WkgQPuFDLzyCFAamYBO-BUDPo5QdLDRmq-f_rcDM",
+                    "widthPx": 800,
+                    "heightPx": 414,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Marek Szuszkiewicz",
+                            "uri": "//maps.google.com/maps/contrib/115522718665098582871",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVaWD-kFV-zkH0NGIzHShtYdWQRDQINfGVB0v1BB3bGAQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFjzrDrNF1A1p4tJQUe86WkmY1wbktDHm4UxNKoTq2qreNixN2YQ6CSy0oRe1_tpwplV1WojvlUn_kNkSpdZ_lQPxuvUkQwTcfNCfyjSd0x2qkOCte-Pc4-jzW-L59j4tLGFXKJv871Ou0K5DY96-Wdvqm24r_0JfVw",
+                    "widthPx": 4160,
+                    "heightPx": 3120,
+                    "authorAttributions": [
+                        {
+                            "displayName": "MarKS",
+                            "uri": "//maps.google.com/maps/contrib/108658953353248081065",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV_L9FIp4ylkR_QzhFUBJwrIAQhrD_WY7bea3G17-lgJw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFhlQ56-xXAINXTcmMg2KiLFOqVcDWEuk_uafRbtsCjDIVRBMFKIfPXw1Zijq2pQjrzucXimlGZ8hcv8wcX8uEOwU_AQI1ovjuRLy-_xYNGVPYuvIKF_2t8utIRpd8Actt1MrVC3eUU7EWI4nVIaZY2L-1xCyeItA25x",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Adam K.",
+                            "uri": "//maps.google.com/maps/contrib/102412921504406636319",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWVK9fC0OugOYHJZJOMbPXhEKv2HC6f6cJXamOmU_bSFBs=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFjnJMuJ6Nud4WoxBZJ3pLlPtA-InndF7gfmAHzR6gdwBxY79A9yq5yMx1ZGMFrY6IjD9EpPMTsXE2NU1F800qN42lkrL72lrsgiVe_aUcfksbHsv3AOCoKXqVVlYPDXQh-i1FyUhATXJvJvs10pT4btJv04dcbvjAih",
+                    "widthPx": 8203,
+                    "heightPx": 1284,
+                    "authorAttributions": [
+                        {
+                            "displayName": "CENTRUM OBSŁUGI SAMOCHODÓW",
+                            "uri": "//maps.google.com/maps/contrib/105525139419084791360",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLaPI4-LXg2LF5982hCPVv20DMXUHLlzzycDIPeCO2I=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJszUDKydbBEcRd4oFloxjH6o/photos/AWU5eFgSFh0N7UdyGRv7N7qKJxnQ7golA2Rzi-sSBbLbNNjtCZ5XUCQG8GNOYxDbiqJoHo2TJidz9WO9XifMQBhQvItJ3bdR2EQ62EMJO8D40Wt92i7bNmNOd_3T6eH1uYufhLdYhn1aHYdJibRedo2kyYfjwD1hPoWRHf3Y",
+                    "widthPx": 6335,
+                    "heightPx": 4170,
+                    "authorAttributions": [
+                        {
+                            "displayName": "CENTRUM OBSŁUGI SAMOCHODÓW",
+                            "uri": "//maps.google.com/maps/contrib/105525139419084791360",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLaPI4-LXg2LF5982hCPVv20DMXUHLlzzycDIPeCO2I=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "types": [
+                "auto_parts_store",
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "Syrokomli 12, 60-681 Poznań, Poland",
+            "rating": 4.7,
+            "websiteUri": "https://lb-japan-serwis.dobrywarsztat.info/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 18,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 13,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 6:00 PM",
+                    "Tuesday: 8:00 AM – 6:00 PM",
+                    "Wednesday: 8:00 AM – 6:00 PM",
+                    "Thursday: 8:00 AM – 6:00 PM",
+                    "Friday: 8:00 AM – 6:00 PM",
+                    "Saturday: 8:00 AM – 1:00 PM",
+                    "Sunday: Closed"
+                ]
+            },
+            "userRatingCount": 110,
+            "displayName": {
+                "text": "LB JAPAN SERVICE",
+                "languageCode": "en"
+            },
+            "photos": [
+                {
+                    "name": "places/ChIJZyHLeERDBEcRIzUlYJLacZ0/photos/AWU5eFhyYFEPRT3ySjIrOa70OsAf05rK3ZWsPMzr3IIq5e7v45k9a0uOvnkzlSCRsGbrkTNf_KXdWHmZ2jc4baTSb1tAR2QQRwDg1ZLcMxNSpXkZRCwWeXDz9ebUTcb8uQEFf_cmThamMoVbAglOPE-Cy4BHddla3bHuhj69",
+                    "widthPx": 5984,
+                    "heightPx": 3366,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Uladzimir Darożka",
+                            "uri": "//maps.google.com/maps/contrib/100066750042373182847",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXmdb4B_fK8TZqtEEGxkVuvXAJYAGcq_kx0mYIWiUKv9Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZyHLeERDBEcRIzUlYJLacZ0/photos/AWU5eFgt152AiHZpFtDd4_vtYgRO4H254eAhLQF08l0-feR3W6Fk6-YJV5KtqfozL6XpOPrix_sCXpmT5F0xEqPv6HNHPPhuoYD-en2-iEv7xhV__CC5Qx760VRETmwRKZ33RxUe1UF4bsQymF98FkKFu0NxJbwB2pDtMCHQ",
+                    "widthPx": 5984,
+                    "heightPx": 3366,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Uladzimir Darożka",
+                            "uri": "//maps.google.com/maps/contrib/100066750042373182847",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXmdb4B_fK8TZqtEEGxkVuvXAJYAGcq_kx0mYIWiUKv9Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZyHLeERDBEcRIzUlYJLacZ0/photos/AWU5eFjft1LRC2yBocov-pzcULDFB-LehDOdXYT7nF5hW82lD2blXiMCqBtIisxsj25uawIeSL16YdOebGyM6CUIjnsz6FHg4FcKgJ60SqFu6jo7qVaxg6w0Ewf6Vdlp4Ls4aJosY5H72gCBeCbXZg3NB0gLA2f0I9qyj9JN",
+                    "widthPx": 5984,
+                    "heightPx": 3366,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Uladzimir Darożka",
+                            "uri": "//maps.google.com/maps/contrib/100066750042373182847",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXmdb4B_fK8TZqtEEGxkVuvXAJYAGcq_kx0mYIWiUKv9Q=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJZyHLeERDBEcRIzUlYJLacZ0/photos/AWU5eFhSQA18bonGb-BWwZK1kHXXJhz5m9RlfRgVD8MKTC0-AXs7gEku83tsjiz3RObNAjhTh8cTWMzgKxYaZsq8SntgUd_tKqFAGavSddxSRHyX1LE98cpZZHyyf2bq3LpBFctogy_gN9bJ9w1ninpGwLb0ZBGsfOdclIE6",
+                    "widthPx": 1600,
+                    "heightPx": 900,
+                    "authorAttributions": [
+                        {
+                            "displayName": "LB JAPAN SERWIS -mechanika, wulkanizacja i diagnostyka samochodowa",
+                            "uri": "//maps.google.com/maps/contrib/103804658541743661268",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIK8SHa4MPwRl9BV7rMXy0CECHUZOIYNT_jCtiFqXSP=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
