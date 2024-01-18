@@ -1,4 +1,6 @@
 import { Request, Response } from "express";
+const fs = require("fs");
+const path = require("path");
 
 interface PlacesApi {
   getPlaces: (req: Request, res: Response) => Promise<void>;
@@ -15,7 +17,6 @@ const placesApi: PlacesApi = {
       .trim()
       .replace(/[\s,.]+/g, "+");
     const textQuery = `${place}${location}`;
-    console.log(textQuery);
     const url = "https://places.googleapis.com/v1/places:searchText";
 
     //Headers and body for POST request
@@ -23,19 +24,29 @@ const placesApi: PlacesApi = {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": process.env.GOOGLE_API_ID,
       "X-Goog-FieldMask":
-        "places.displayName,places.formattedAddress,places.priceLevel",
+        "places.displayName,places.formattedAddress,places.priceLevel,places.types,places.rating,places.regularOpeningHours,places.userRatingCount,places.websiteUri",
     };
     const body = JSON.stringify({ textQuery: textQuery, languageCode: "en" });
 
     //Send POST request
+    const filePath = path.join(__dirname, "../src/dummyPlaces.json");
     try {
-      const response = await fetch(url, { method: "POST", headers, body });
-      const data = await response.json();
-      if (!response.ok) {
-        console.error("Error response data:", data); // Log the error response data
-        throw new Error(`HTTP error status: ${response.status}`);
-      }
-      console.log(data);
+      fs.readFile(filePath, "utf8", (err, data) => {
+        if (err) {
+          res.status(500).send("Error reading the data file");
+          return;
+        }
+        res.json(JSON.parse(data));
+      });
+
+      // const response = await fetch(url, { method: "POST", headers, body });
+      // const data = await response.json();
+      // if (!response.ok) {
+      //   console.error("Error response data:", data); // Log the error response data
+      //   throw new Error(`HTTP error status: ${response.status}`);
+      // }
+      // console.log(data);
+      // res.json(data);
     } catch (error: any) {
       if (error.response) {
         // The request was made and the server responded with a status code
