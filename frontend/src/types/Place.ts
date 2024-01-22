@@ -1,6 +1,7 @@
 type PlaceDetails = {
   displayName: DisplayName;
   formattedAddress: string;
+  location: Location;
   rating: number;
   regularOpeningHours?: OpeningHours;
   photos?: Array<Photo>;
@@ -26,6 +27,11 @@ type Photo = {
 type AuthorAttribution = {
   uri: string;
   photoUri: string;
+};
+
+type Location = {
+  latitude: number;
+  longitude: number;
 };
 
 export default PlaceDetails;
