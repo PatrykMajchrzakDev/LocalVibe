@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PlacesItem from "../components/Places/PlacesItem";
 import Place from "../types/Place";
-import Map from "../components/UI/Map/Map";
+import Map from "../components/UI/Map/MapContainer";
 const Places = () => {
   const [placesList, setPlacesList] = useState<Place[]>([]);
   useEffect(() => {
@@ -19,21 +19,19 @@ const Places = () => {
 
     fetchData();
   }, []);
-
-  console.log(placesList);
   return (
     <main>
       {/* Left side options */}
       <div className="h-[14vh] bg-defaultGray border-[1px] border-b-bordersColor"></div>
       {/* Places Items */}
       <section className="flex">
-        <div className="h-[86vh] w-[15%] bg-defaultGray">Filters</div>
-        <div className="w-[45%] bg-gray-400">
+        <div className="h-[80vh] w-[15%] bg-defaultGray">Filters</div>
+        <div className="w-[45%] h-[80vh] bg-gray-400">
           {placesList.map((place) => (
             <PlacesItem key={place.displayName.text} place={place} />
           ))}
         </div>
-        <div className="w-[40%] h-[vh]">
+        <div className="w-[40%] h-[80vh]">
           {placesList.length > 0 && (
             <Map
               places={placesList}
