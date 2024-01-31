@@ -9,7 +9,7 @@ const Rating: React.FC<RatingProps> = ({ rating }) => {
   const starElements = [];
 
   for (let i = 0; i < totalStars; i++) {
-    starElements.push(<Star key={i} isGold={i < rating} />);
+    starElements.push(<Star key={i} isGold={i < Math.round(rating)} />);
   }
 
   return <div className="flex">{starElements}</div>;
