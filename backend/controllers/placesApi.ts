@@ -24,7 +24,7 @@ const placesApi: PlacesApi = {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": process.env.GOOGLE_API_ID,
       "X-Goog-FieldMask":
-        "places.displayName,places.formattedAddress,places.priceLevel,places.types,places.rating,places.regularOpeningHours,places.userRatingCount,places.websiteUri",
+        "places.id,places.displayName,places.formattedAddress,places.priceLevel,places.types,places.rating,places.regularOpeningHours,places.userRatingCount,places.websiteUri",
     };
     const body = JSON.stringify({ textQuery: textQuery, languageCode: "en" });
 
