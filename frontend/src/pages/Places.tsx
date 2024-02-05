@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PlacesItem from "../components/Places/PlacesItem";
 import Place from "../types/Place";
-import Map from "../components/UI/Map/MapContainer";
+import Map from "../components/Map/MapContainer";
 const Places = () => {
   const [placesList, setPlacesList] = useState<Place[]>([]);
   useEffect(() => {
@@ -39,7 +39,7 @@ const Places = () => {
                 lat: placesList[0].location.latitude,
                 lng: placesList[0].location.longitude,
               }}
-              zoom={11}
+              zoom={12}
             />
           )}
         </div>
