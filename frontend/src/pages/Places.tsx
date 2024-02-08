@@ -26,9 +26,13 @@ const Places = () => {
       {/* Places Items */}
       <section className="flex">
         <div className="h-[80vh] w-[15%] bg-defaultGray">Filters</div>
-        <div className="w-[45%] h-[80vh] bg-gray-400">
-          {placesList.map((place) => (
-            <PlacesItem key={place.displayName.text} place={place} />
+        <div className="w-[45%] h-[80vh] overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
+          {placesList.map((place, index) => (
+            <PlacesItem
+              key={place.displayName.text}
+              place={place}
+              index={index}
+            />
           ))}
         </div>
         <div className="w-[40%] h-[80vh]">

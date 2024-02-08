@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindScrollbar from "tailwind-scrollbar";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -14,9 +15,12 @@ export default {
       backgroundImage: {
         "hero-img": "url('imgs/hero-img.png')",
       },
+      boxShadow: {
+        shadowListItem: "0 0px 10px rgba(0, 0, 0, 0.2)",
+      },
     },
   },
-  plugins: [],
+  plugins: [tailwindScrollbar],
 };
 
 // Mobile devices – 320px — 480px.
