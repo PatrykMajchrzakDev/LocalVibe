@@ -1,9 +1,19 @@
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import PlacesItem from "../components/Places/PlacesItem";
 import Place from "../types/Place";
 import Map from "../components/Map/MapContainer";
+
 const Places = () => {
+  // State to store the places list
   const [placesList, setPlacesList] = useState<Place[]>([]);
+
+  // Get the search parameters from the URL
+  const [searchParams] = useSearchParams();
+  const findDesc = searchParams.get("find_desc");
+  const findLoc = searchParams.get("find_loc");
+
+  // Fetch places data from the API
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -26,16 +36,16 @@ const Places = () => {
       {/* Places Items */}
       <section className="flex">
         <div className="h-[80vh] w-[15%] bg-defaultGray">Filters</div>
-        <div className="w-[45%] h-[80vh] overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
+        <div className="w-[35%] h-[80vh] overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
+          <div className="text-2xl pl-5 py-5 font-bold">
+            Best {findDesc} w {findLoc}
+          </div>
           {placesList.map((place, index) => (
-            <PlacesItem
-              key={place.displayName.text}
-              place={place}
-              index={index}
-            />
+            <PlacesItem key={place.id} place={place} index={index} />
           ))}
         </div>
-        <div className="w-[40%] h-[80vh]">
+        {/* Map section */}
+        <div className="w-[50%] h-[80vh]">
           {placesList.length > 0 && (
             <Map
               places={placesList}

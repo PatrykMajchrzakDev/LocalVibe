@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import Place from "../../types/Place";
 import Rating from "../UI/StarRating/Rating";
+import mapPinStore from "../../store/mapPin";
 
+// Props for the PlacesItem component
 interface PlacesItemProps {
   place: Place;
   index: number;
@@ -9,16 +11,21 @@ interface PlacesItemProps {
 
 const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
   const {
+    id,
     displayName,
     formattedAddress,
     rating,
     regularOpeningHours,
-    photos,
     websiteUri,
     userRatingCount,
   } = place;
 
+  const { setHoveredItemId } = mapPinStore();
+
+  // State to store today's operating hours
   const [todayOpeningHours, setTodayOpeningHours] = useState<string>("");
+
+  // Set today's operating hours
   useEffect(() => {
     const days = [
       "Sunday", // Start with Sunday to match getDay() indexing
@@ -43,25 +50,34 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
     setTodayOpeningHours(todayOperatingHours || "Closed");
   }, [regularOpeningHours?.weekdayDescriptions]);
 
+  // Website URL and alternative text if there is no website
+  const placeWebsiiteUrl = websiteUri ? (
+    <a className="text-teal-800 px-2" href={`${websiteUri}`}>
+      ({websiteUri})
+    </a>
+  ) : (
+    <p>This place has no website.</p>
+  );
   return (
-    <div className="p-5 hover:shadow-shadowListItem">
-      <div></div>
+    <div
+      className="flex p-5 hover:shadow-shadowListItem border-b-2 border-defaultGray"
+      onMouseEnter={() => setHoveredItemId(id)}
+      onMouseLeave={() => setHoveredItemId(null)}
+    >
       <div>
-        <p>
+        <p className="font-semibold text-lg pt-2">
           {index + 1}. {displayName.text}
         </p>
-        <div className="flex items-center">
+        <div className="flex items-center pt-2">
           <Rating rating={rating} />
           <p>{rating}</p>
           <p>({userRatingCount} reviews)</p>
         </div>
-        <div>{formattedAddress}</div>
-        <div>{todayOpeningHours}</div>
-        <div className="">
-          <i className="fa-solid fa-link"></i>
-          <a className="text-teal-800 px-2" href={`${websiteUri}`}>
-            Website
-          </a>
+        <div className="pt-2">{formattedAddress}</div>
+        <div className="pt-2">{todayOpeningHours}</div>
+        <div className="pt-2 flex items-center">
+          <i className="fa-solid fa-link pr-1"></i>
+          {placeWebsiiteUrl}
         </div>
       </div>
     </div>
