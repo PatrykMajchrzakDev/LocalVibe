@@ -1,4 +1,5 @@
 type PlaceDetails = {
+  id: string;
   displayName: DisplayName;
   formattedAddress: string;
   location: Location;
