@@ -21,6 +21,8 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
   } = place;
 
   const { setHoveredItemId } = mapPinStore();
+  const { setSelectedItemId } = mapPinStore();
+  const { selectedItemId } = mapPinStore();
 
   // State to store today's operating hours
   const [todayOpeningHours, setTodayOpeningHours] = useState<string>("");
@@ -63,6 +65,13 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
       className="flex p-5 hover:shadow-shadowListItem border-b-2 border-defaultGray"
       onMouseEnter={() => setHoveredItemId(id)}
       onMouseLeave={() => setHoveredItemId(null)}
+      onClick={() => {
+        if (selectedItemId === id) {
+          setSelectedItemId(null);
+        } else {
+          setSelectedItemId(id);
+        }
+      }}
     >
       <div>
         <p className="font-semibold text-lg pt-2">

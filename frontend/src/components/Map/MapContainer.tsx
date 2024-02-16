@@ -13,6 +13,7 @@ interface MapProps {
 
 const MapContainer: React.FC<MapProps> = ({ places, center, zoom }) => {
   const { hoveredItemId } = mapPinStore();
+  const { selectedItemId } = mapPinStore();
   return (
     <div className="w-full h-full">
       <APIProvider apiKey={import.meta.env.VITE_GOOGLE_API_KEY as string}>
@@ -27,7 +28,9 @@ const MapContainer: React.FC<MapProps> = ({ places, center, zoom }) => {
               key={place.id}
               index={index}
               markerColor={
-                place.id === hoveredItemId ? "bg-red-500" : "bg-blue-500"
+                place.id === hoveredItemId || place.id === selectedItemId
+                  ? "bg-red-500"
+                  : "bg-blue-500"
               }
             />
           ))}
