@@ -22,16 +22,18 @@ const Places = () => {
 
   return (
     <main>
-      <div className="h-[14vh] bg-defaultGray border-[1px] border-b-bordersColor"></div>
+      <div className="h-[25vh] sm:h-[14vh] bg-defaultGray border-[1px] border-b-bordersColor"></div>
       {/* Places Items */}
       {data && (
-        <section className="flex flex-col md:flex-row">
+        <section className="flex flex-col lg:flex-row">
           {/* Filters */}
-          <div className="md:h-[80vh] lg:w-[15%] bg-defaultGray">Filters</div>
+          <div className="lg:h-[80vh] lg:w-[15%] bg-defaultGray p-2">
+            Filters
+          </div>
           {/* List of places */}
 
-          <div className="h-[60vh] md:h-[80vh] lg:w-[35%]  overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
-            <div className="text-2xl pl-5 py-5 font-bold">
+          <div className="h-[60vh] lg:h-[80vh] lg:w-[35%]  overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
+            <div className="text-2xl pl-5 py-5 font-bold border-b-2 border-defaultGray">
               Best {findDesc} w {findLoc}
             </div>
 
@@ -40,7 +42,7 @@ const Places = () => {
             ))}
           </div>
           {/* Map section */}
-          <div className="h-[60vh] md:h-[80vh] md:w-[50%]">
+          <div className="h-[60vh] w-full lg:h-[80vh] lg:w-[50%]">
             {data.length > 0 && (
               <Map
                 places={data}
