@@ -17,6 +17,10 @@ const MapItem: React.FC<MapItemProps> = ({ place, index, markerColor }) => {
   const [markerRef, marker] = useAdvancedMarkerRef();
   const marketTip =
     markerColor === "bg-red-500" ? "border-t-red-500" : "border-t-blue-500";
+  const handleMarkerClick = () => {
+    setInfowindowOpen(!infowindowOpen);
+  };
+
   return (
     <>
       <AdvancedMarker
@@ -27,7 +31,7 @@ const MapItem: React.FC<MapItemProps> = ({ place, index, markerColor }) => {
           lat: place.location.latitude,
           lng: place.location.longitude,
         }}
-        onClick={() => setInfowindowOpen(!infowindowOpen)}
+        onClick={() => handleMarkerClick}
       >
         {/* Absolutely positioned triangle under marker to look like a pin */}
         <div
