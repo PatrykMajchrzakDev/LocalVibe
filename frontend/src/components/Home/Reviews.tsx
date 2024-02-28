@@ -36,7 +36,16 @@ const Reviews = () => {
       </div>
     );
 
-  if (isError) return <div>Error: {error.message}</div>;
+  if (isError)
+    return (
+      <div>
+        <p>Error: {error.message}</p>
+        <p>
+          Sorry, we could not get reviews. There is a problem with connecting to
+          backend server. Try again later.
+        </p>
+      </div>
+    );
 
   return (
     <div className="flex flex-wrap xl:max-w-7xl mx-auto p-5">
