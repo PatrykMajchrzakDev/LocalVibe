@@ -9,7 +9,7 @@ interface QueryParams {
 const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
   userLocation,
 }) => {
-  const navigate = useNavigate();
+  const redirect = useNavigate();
 
   const [userLocationInput, setUserLocationInput] = useState(
     userLocation ? `${userLocation.city}, ${userLocation.country_name}` : ""
@@ -35,10 +35,11 @@ const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
       queryParams.find_loc = userLocationInput.trim();
     }
 
-    navigate(
-      `places/search?find_desc=${encodeURIComponent(
+    redirect(
+      `/places/search?find_desc=${encodeURIComponent(
         searchInput
-      )}&find_loc=${encodeURIComponent(userLocationInput)}`
+      )}&find_loc=${encodeURIComponent(userLocationInput)}`,
+      { replace: true }
     );
   };
   return (
