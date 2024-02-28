@@ -40,12 +40,7 @@ export async function fetchRandomReviews() {
 export async function fetchDummyPlacesData() {
   try {
     const req = await fetch(
-      "http://6346-46-205-207-206.ngrok-free.app/places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland",
-      {
-        headers: new Headers({
-          "ngrok-skip-browser-warning": "asd",
-        }),
-      }
+      "http://localhost:3000/places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland"
     );
     const data = await req.json();
     return data.places;
