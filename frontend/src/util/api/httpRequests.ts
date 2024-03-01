@@ -55,6 +55,7 @@ export async function fetchPlacesData(
   pageParam?: number
 ) {
   try {
+    console.log(pageParam);
     const req = await fetch(
       `https://localvibe.fly.dev/places/search?find_desc=${desc}&find_loc=${loc}`
     );
