@@ -5,10 +5,34 @@ const path = require("path");
 interface PlacesApi {
   getPlaces: (req: Request, res: Response) => Promise<void>;
 }
+interface PlacesApiDummy {
+  getPlacesDummy: (req: Request, res: Response) => Promise<void>;
+}
 
-const placesApi: PlacesApi = {
+//Dummy fetch from server file
+export const placesApiDummy: PlacesApiDummy = {
+  getPlacesDummy: async (req, res) => {
+    //Send POST request
+    const filePath = path.join(__dirname, "../src/dummyPlaces.json");
+    try {
+      fs.readFile(filePath, "utf8", (err, data) => {
+        if (err) {
+          res.status(500).send("Error reading the data file");
+          return;
+        }
+        res.json(JSON.parse(data));
+      });
+    } catch (error) {
+      console.error("Fetch error: " + error.message);
+      // Handle the error or throw it so it can be caught further up the call stack
+      throw error;
+    }
+  },
+};
+
+//Fetch from Google Places API (new)
+export const placesApi: PlacesApi = {
   getPlaces: async (req, res) => {
-    //Google Places API (new)
     //New API requires a POST request with a JSON body
 
     //Place and location are passed in as query parameters
@@ -29,38 +53,19 @@ const placesApi: PlacesApi = {
     const body = JSON.stringify({ textQuery: textQuery, languageCode: "en" });
 
     //Send POST request
-    const filePath = path.join(__dirname, "../src/dummyPlaces.json");
     try {
-      fs.readFile(filePath, "utf8", (err, data) => {
-        if (err) {
-          res.status(500).send("Error reading the data file");
-          return;
-        }
-        res.json(JSON.parse(data));
-      });
-
-      // const response = await fetch(url, { method: "POST", headers, body });
-      // const data = await response.json();
-      // if (!response.ok) {
-      //   console.error("Error response data:", data); // Log the error response data
-      //   throw new Error(`HTTP error status: ${response.status}`);
-      // }
-      // console.log(data);
-      // res.json(data);
-    } catch (error: any) {
-      if (error.response) {
-        // The request was made and the server responded with a status code
-        // that falls out of the range of 2xx
-        console.error("Error response:", error.response.data);
-      } else if (error.request) {
-        // The request was made but no response was received
-        console.error("No response received:", error.request);
-      } else {
-        // Something happened in setting up the request that triggered an Error
-        console.error("Error setting up request:", error.message);
+      const response = await fetch(url, { method: "POST", headers, body });
+      const data = await response.json();
+      if (!response.ok) {
+        // Throw an error with the status text, which can be caught below
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+      console.log(data);
+      res.json(data);
+    } catch (error) {
+      console.error("Fetch error: " + error.message);
+      // Handle the error or throw it so it can be caught further up the call stack
+      throw error;
     }
   },
 };
-
-export default placesApi;

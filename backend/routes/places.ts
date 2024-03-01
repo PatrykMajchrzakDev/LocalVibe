@@ -1,7 +1,8 @@
 import express from "express";
 const router = express.Router();
-import placeController from "../controllers/placesApi";
+import { placesApi, placesApiDummy } from "../controllers/placesApi";
 
-router.get("/search", placeController.getPlaces);
+router.get("/search", placesApi.getPlaces);
+// router.get("/search", placesApiDummy.getPlacesDummy);
 
 export default router;
