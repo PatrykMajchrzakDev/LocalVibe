@@ -3,7 +3,7 @@ import PlacesItem from "../components/Places/PlacesItem";
 import Place from "../types/Place";
 import Map from "../components/Map/MapContainer";
 import { useQuery } from "@tanstack/react-query";
-import { fetchDummyPlacesData } from "../util/api/httpRequests";
+import { fetchPlacesData } from "../util/api/httpRequests";
 const Places = () => {
   // State to store the places list
   // const [placesList, setPlacesList] = useState<Place[]>([]);
@@ -15,11 +15,12 @@ const Places = () => {
 
   // Fetch places data from the API
   const { data } = useQuery<Place[], Error>({
-    queryKey: ["dummyPlaces"],
-    queryFn: fetchDummyPlacesData,
+    queryKey: ["places"],
+    queryFn: () => fetchPlacesData(findDesc, findLoc),
     staleTime: 300000,
   });
 
+  //TODO ADD INIFITE QUEYR INSTEAD ON SCROLL
   return (
     <main>
       <div className="h-[25vh] sm:h-[14vh] bg-defaultGray border-[1px] border-b-bordersColor"></div>

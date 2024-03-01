@@ -50,9 +50,9 @@ export async function fetchDummyPlacesData() {
 }
 
 export async function fetchPlacesData(
-  desc: string,
-  loc: string,
-  pageParam: number
+  desc: string | null,
+  loc: string | null,
+  pageParam?: number
 ) {
   try {
     const req = await fetch(
