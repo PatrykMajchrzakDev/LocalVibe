@@ -28,7 +28,9 @@ export async function fetchUserLocation() {
 //FETCH RANDOM REVIEWS
 export async function fetchRandomReviews() {
   try {
-    const response = await fetch("http://localhost:3000/api/randomReviews");
+    const response = await fetch(
+      "https://localvibe.fly.dev//api/randomReviews"
+    );
     const data = await response.json();
     return data;
   } catch (error) {
@@ -40,7 +42,7 @@ export async function fetchRandomReviews() {
 export async function fetchDummyPlacesData() {
   try {
     const req = await fetch(
-      "http://localhost:3000/places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland"
+      "https://localvibe.fly.dev//places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland"
     );
     const data = await req.json();
     return data.places;
