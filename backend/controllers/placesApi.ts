@@ -48,10 +48,10 @@ export const placesApi: PlacesApi = {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": process.env.GOOGLE_API_ID,
       "X-Goog-FieldMask":
-        "places.id,places.displayName,places.formattedAddress,places.priceLevel,places.types,places.rating,places.regularOpeningHours,places.userRatingCount,places.websiteUri",
+        "places.id,places.displayName,places.formattedAddress,places.priceLevel,places.types,places.rating,places.regularOpeningHours,places.userRatingCount,places.websiteUri,places.photos,places.location",
     };
     const body = JSON.stringify({ textQuery: textQuery, languageCode: "en" });
-
+    console.log(textQuery);
     //Send POST request
     try {
       const response = await fetch(url, { method: "POST", headers, body });

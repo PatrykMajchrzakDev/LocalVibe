@@ -56,7 +56,7 @@ export async function fetchPlacesData(
 ) {
   try {
     const req = await fetch(
-      `http://localhost:3000/places/search?find_desc=${desc}&find_loc=${loc}${pageParam}`
+      `http://localhost:3000/places/search?find_desc=${desc}&find_loc=${loc}`
     );
     const data = await req.json();
     return data.places;
