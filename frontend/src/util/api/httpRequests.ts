@@ -29,7 +29,7 @@ export async function fetchUserLocation() {
 export async function fetchRandomReviews() {
   try {
     const response = await fetch(
-      "https://localvibe.fly.dev//api/randomReviews"
+      "https://local-vibe.vercel.app/api/randomReviews"
     );
     const data = await response.json();
     return data;
@@ -42,7 +42,23 @@ export async function fetchRandomReviews() {
 export async function fetchDummyPlacesData() {
   try {
     const req = await fetch(
-      "https://localvibe.fly.dev//places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland"
+      "https://local-vibe.vercel.app/places/search?find_desc=mechanik&find_loc=Poznan%2C%20Poland"
+    );
+    const data = await req.json();
+    return data.places;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}
+
+export async function fetchPlacesData(
+  desc: string,
+  loc: string,
+  pageParam: number
+) {
+  try {
+    const req = await fetch(
+      `http://localhost:3000/places/search?find_desc=${desc}&find_loc=${loc}${pageParam}`
     );
     const data = await req.json();
     return data.places;
