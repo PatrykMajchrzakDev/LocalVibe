@@ -19,6 +19,6 @@ app.use("/api", apiRoutes);
 app.use("/places", placesRoutes);
 
 //Server Running
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running at ${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log(`Server is running at 3000`);
 });
