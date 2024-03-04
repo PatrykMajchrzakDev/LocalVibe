@@ -7,12 +7,17 @@ import cors from "cors";
 // ENV files config
 require("dotenv").config({ path: "./.env" });
 
+//CORS policy
+const corsOptions = {
+  origin: ["https://local-vibe.vercel.app", "http://localhost:5173"], // or '*' for any origin
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
+
 //Body Parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-//CORS policy
-app.use(cors());
 
 //Routes setup
 app.use("/api", apiRoutes);
