@@ -53,9 +53,12 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
   }, [regularOpeningHours?.weekdayDescriptions]);
 
   // Website URL and alternative text if there is no website
+  const onlyDomainRegex = /https?:\/\/([^/\s]+)/;
+  const match = websiteUri ? websiteUri.match(onlyDomainRegex) : null;
+  const urlDomain = match ? match[1] : "";
   const placeWebsiiteUrl = websiteUri ? (
     <a className="text-teal-800 px-2" href={`${websiteUri}`}>
-      ({websiteUri})
+      ({urlDomain})
     </a>
   ) : (
     <p>This place has no website.</p>
@@ -85,7 +88,7 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
         <div className="pt-2">{formattedAddress}</div>
         <div className="pt-2">{todayOpeningHours}</div>
         <div className="pt-2 flex items-center">
-          <i className="fa-solid fa-link pr-1"></i>
+          <i className="fa-solid fa-link pr-1 break-words"></i>
           {placeWebsiiteUrl}
         </div>
       </div>
