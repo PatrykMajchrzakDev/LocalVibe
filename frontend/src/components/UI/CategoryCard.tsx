@@ -9,9 +9,9 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ img, desc, src }) => {
   const linkCard = src && (
     <div className="flex flex-wrap items-center justify-center w-[calc(50%-16px)] border-[1px] border-bordersColor shadow-sm m-2 px-2 py-10 md:w-[calc(25%-16px)] hover:shadow-md">
       <li>
-        <Link to={`/places/${encodeURIComponent(src)}`}>
+        <Link to={`/places/search?find_desc=${encodeURIComponent(src)}`}>
           <i
-            className={`flex items-center justify-center p-2 text-2xl text-red-500 ${img}`}
+            className={`flex items-center justify-center p-2 text-2xl text-defaultRed ${img}`}
           ></i>
           <p className="text-base">{desc}</p>
         </Link>

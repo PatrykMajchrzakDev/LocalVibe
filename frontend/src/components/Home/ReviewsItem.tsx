@@ -21,7 +21,7 @@ const ReviewsItem: React.FC<ReviewProps> = ({ review }) => {
     <div className="w-full sm:w-[calc(50%-32px)] xl:w-[calc(33.33%-32px)] flex flex-col m-4 px-4 py-8 border-[1px] border-bordersColor shadow-md">
       <div className="flex flex-col">
         <div className="flex flex-wrap">
-          <i className="fa-regular fa-circle-user flex justify-center items-center text-3xl pr-3 text-red-500"></i>
+          <i className="fa-regular fa-circle-user flex justify-center items-center text-3xl pr-3 text-defaultRed"></i>
           <div>
             <p className="font-semibold text-lg">{author}</p>
             <p className="">Wrote a review</p>

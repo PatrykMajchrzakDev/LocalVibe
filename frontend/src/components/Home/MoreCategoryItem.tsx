@@ -16,7 +16,7 @@ const MoreCategoryItem: React.FC<MoreCategoryItemProps> = ({
       <Link to={`/places/${encodeURIComponent(url)}`}>
         <div className="flex hover:underline">
           <i
-            className={`flex items-center p-2 text-xl text-red-500 ${img}`}
+            className={`flex items-center p-2 text-xl text-defaultRed ${img}`}
           ></i>
           <p className="flex items-center">{desc}</p>
         </div>

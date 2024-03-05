@@ -71,7 +71,7 @@ const SearchBar: React.FC<{ userLocation: UserLocation | null }> = ({
         </label>
       </div>
       {/* 3rd section - search button */}
-      <div className="px-3 bg-red-500 flex items-center justify-center text-lg border-solid border-white border-2">
+      <div className="px-3 bg-defaultRed flex items-center justify-center text-lg border-solid border-white border-2">
         <button type="submit" className="w-8 h-8">
           <i className="fa-solid fa-magnifying-glass text-white"></i>
         </button>

@@ -28,6 +28,7 @@ export default {
     },
     extend: {
       colors: {
+        defaultRed: "#ef4444",
         defaultGray: "#f7f7f7",
         bordersColor: "#ebebeb",
         categoriesLink: "#2d2e2f",
