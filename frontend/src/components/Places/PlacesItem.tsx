@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Place from "../../types/Place";
 import Rating from "../UI/StarRating/Rating";
 import mapPinStore from "../../store/mapPin";
+import mapCenterStore from "../../store/mapCenter";
 
 // Props for the PlacesItem component
 interface PlacesItemProps {
@@ -18,11 +19,16 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
     regularOpeningHours,
     websiteUri,
     userRatingCount,
+    location,
   } = place;
 
+  //Map pin store
   const { setHoveredItemId } = mapPinStore();
   const { setSelectedItemId } = mapPinStore();
   const { selectedItemId } = mapPinStore();
+
+  //Map center store
+  const { setSelectedItemLocation } = mapCenterStore();
 
   // State to store today's operating hours
   const [todayOpeningHours, setTodayOpeningHours] = useState<string>("");
@@ -63,18 +69,22 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
   ) : (
     <p>This place has no website.</p>
   );
+
+  //Item click handler
+  const handleItemClick = () => {
+    if (selectedItemId === id) {
+      setSelectedItemId(null);
+    } else {
+      setSelectedItemId(id);
+    }
+    setSelectedItemLocation(location);
+  };
   return (
     <div
       className="flex p-5 hover:shadow-shadowListItem border-b-2 border-defaultGray"
       onMouseEnter={() => setHoveredItemId(id)}
       onMouseLeave={() => setHoveredItemId(null)}
-      onClick={() => {
-        if (selectedItemId === id) {
-          setSelectedItemId(null);
-        } else {
-          setSelectedItemId(id);
-        }
-      }}
+      onClick={handleItemClick}
     >
       <div>
         <p className="font-semibold text-lg pt-2">
