@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import tailwindAnimate from "tailwindcss-animate";
+import tailwindScrollbar from "tailwind-scrollbar";
 export default {
   darkMode: ["class"],
   content: [
@@ -7,14 +8,22 @@ export default {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
+    backgroundImage: {
+      "hero-img": "url('imgs/hero-img.png')",
+    },
+    fontFamily: {
+      default: ["roboto", "ui-sans-serif", "system-ui"],
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          "2xl": "1400px",
+        },
       },
     },
     extend: {
@@ -56,6 +65,9 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      boxShadow: {
+        shadowListItem: "0 0px 10px rgba(0, 0, 0, 0.2)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -77,5 +89,5 @@ export default {
       },
     },
   },
-  plugins: [tailwindAnimate],
+  plugins: [tailwindAnimate, tailwindScrollbar],
 };
