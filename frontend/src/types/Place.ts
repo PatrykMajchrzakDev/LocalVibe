@@ -26,10 +26,9 @@ type Photo = {
 };
 
 type AuthorAttribution = {
-  uri: string;
   photoUri: string;
 };
-
+        
 type Location = {
   latitude: number;
   longitude: number;
