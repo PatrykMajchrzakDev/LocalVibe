@@ -81,25 +81,30 @@ const PlacesItem: React.FC<PlacesItemProps> = ({ place, index }) => {
   };
   return (
     <div
-      className="flex p-5 hover:shadow-shadowListItem border-b-2 border-defaultGray"
+      className="flex p-5 lg:p-3 hover:shadow-shadowListItem border-b-2 border-defaultGray"
       onMouseEnter={() => setHoveredItemId(id)}
       onMouseLeave={() => setHoveredItemId(null)}
       onClick={handleItemClick}
     >
-      <div>
+      <div className="w-full">
         <p className="font-semibold text-lg pt-2">
           {index + 1}. {displayName.text}
         </p>
-        <div className="flex items-center pt-2">
-          <Rating rating={rating} />
-          <p>{rating}</p>
-          <p>({userRatingCount} reviews)</p>
-        </div>
-        <div className="pt-2">{formattedAddress}</div>
-        <div className="pt-2">{todayOpeningHours}</div>
-        <div className="pt-2 flex items-center">
-          <i className="fa-solid fa-link pr-1 break-words"></i>
-          {placeWebsiiteUrl}
+        <div className="flex">
+          {/* Place photos */}
+          <div className="w-full">
+            <div className="flex items-center pt-2">
+              <Rating rating={rating} />
+              <p>{rating}</p>
+              <p>({userRatingCount} reviews)</p>
+            </div>
+            <div className="pt-2">{formattedAddress}</div>
+            <div className="pt-2">{todayOpeningHours}</div>
+            <div className="pt-2 flex items-center">
+              <i className="fa-solid fa-link pr-1 break-words"></i>
+              {placeWebsiiteUrl}
+            </div>
+          </div>
         </div>
       </div>
     </div>
