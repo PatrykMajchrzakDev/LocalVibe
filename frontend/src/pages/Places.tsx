@@ -5,6 +5,7 @@ import Map from "../components/Map/MapContainer";
 import { useQuery } from "@tanstack/react-query";
 import { fetchPlacesData } from "../util/api/httpRequests";
 import Spinner from "../components/UI/Spinner";
+import PlacesFilters from "@/components/Places/PlacesFilters";
 const Places = () => {
   // State to store the places list
   // const [placesList, setPlacesList] = useState<Place[]>([]);
@@ -29,13 +30,14 @@ const Places = () => {
     );
   }
 
+  //Entire content rendered via condition
   const content = data && (
-    <section className="flex flex-col lg:flex-row">
+    <section className="xl:max-w-7xl mx-auto flex flex-col lg:flex-row">
       {/* Filters */}
-      <div className="lg:h-[80vh] lg:w-[15%] bg-defaultGray p-2">Filters</div>
-      {/* List of places */}
+      <PlacesFilters />
 
-      <div className="h-[60vh] lg:h-[80vh] lg:w-[35%]  overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
+      {/* List of places */}
+      <div className="h-[60vh] lg:h-[80vh] lg:w-[40%] overflow-auto scrollbar-thin scrollbar-track-defaultGray scrollbar-thumb-red-500">
         <div className="text-2xl pl-5 py-5 font-bold border-b-2 border-defaultGray">
           Best {findDesc} w {findLoc}
         </div>
@@ -45,7 +47,7 @@ const Places = () => {
         ))}
       </div>
       {/* Map section */}
-      <div className="h-[60vh] w-full lg:h-[80vh] lg:w-[50%]">
+      <div className="h-[60vh] w-full lg:h-[80vh] lg:w-[40%]">
         {data.length > 0 && (
           <Map
             places={data}
@@ -59,7 +61,7 @@ const Places = () => {
       </div>
     </section>
   );
-  //TODO ADD INIFITE QUEYR INSTEAD ON SCROLL
+
   return (
     <main>
       <div className="h-[25vh] sm:h-[14vh] bg-defaultGray border-[1px] border-b-bordersColor"></div>
